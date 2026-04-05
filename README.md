@@ -89,6 +89,11 @@ I am an EECS undergraduate student passionate about software engineering, specif
 
 **Recent Commits**
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#5](https://github.com/sunsetnightshade/stat_cli/pull/5) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
+2. 💪 Opened PR [#3](https://github.com/sunsetnightshade/stat_cli/pull/3) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
+3. 🎉 Merged PR [#2](https://github.com/sunsetnightshade/stat_cli/pull/2) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
+4. 💪 Opened PR [#2](https://github.com/sunsetnightshade/stat_cli/pull/2) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
+5. 🎉 Merged PR [#1](https://github.com/sunsetnightshade/stat_cli/pull/1) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
 <!--END_SECTION:activity-->
 
 </td>
