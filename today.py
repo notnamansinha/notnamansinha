@@ -41,6 +41,11 @@ def simple_request(func_name, query, variables):
     """
     request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
     if request.status_code == 200:
+        data = request.json()
+        if 'errors' in data:
+            raise Exception(func_name, ' has failed with GraphQL errors:', data['errors'], QUERY_COUNT)
+        if data.get('data') is None:
+            raise Exception(func_name, ' returned null data. Check token scopes (needs classic token with repo + read:user):', request.text, QUERY_COUNT)
         return request
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
 
