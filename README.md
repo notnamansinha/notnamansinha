@@ -190,7 +190,15 @@ print(me.say_hi())
 <div align="center">
 
 <!--START_SECTION:waka-->
-![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=notnamansinha&theme=github_dark&layout=compact) <!-- Fallback to static card if workflow not started -->
+
+```txt
+From: 28 March 2026 - To: 04 April 2026
+
+Total Time: 0 secs
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 </div>
