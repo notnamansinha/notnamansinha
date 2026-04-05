@@ -128,31 +128,12 @@ notnaman@root:~$ █
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%" align="center" valign="top">
-
-<img src="https://github-readme-stats.vercel.app/api?username=notnamansinha&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github&hide_border=false" width="100%" />
-
-</td>
-<td width="50%" align="center" valign="top">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=notnamansinha&theme=tokyonight" width="100%" />
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=notnamansinha&layout=compact&theme=tokyonight&langs_count=8" width="60%" />
-
-</td>
-</tr>
-</table>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=notnamansinha&theme=tokyonight&border=58A6FF&stroke=58A6FF&ring=58A6FF&fire=FF6E40&currStreakLabel=58A6FF" width="80%" />
 
 </div>
 
 <br/>
+
 
 ---
 
@@ -182,23 +163,28 @@ notnaman@root:~$ █
 
 ## `〔 06 〕` Featured Projects
 
-<div align="center">
-
-<a href="https://github.com/notnamansinha/BRTS-Navigator">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=BRTS-Navigator&theme=tokyonight&show_owner=true" />
-</a>
-<a href="https://github.com/notnamansinha/Janmarg-Navigator-Landing-Page">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=Janmarg-Navigator-Landing-Page&theme=tokyonight&show_owner=true" />
-</a>
-
-<a href="https://github.com/notnamansinha/Bus_Track">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=Bus_Track&theme=tokyonight&show_owner=true" />
-</a>
-<a href="https://github.com/notnamansinha/KN_KING_C_Programming">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=KN_KING_C_Programming&theme=tokyonight&show_owner=true" />
-</a>
-
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      <b><a href="https://github.com/notnamansinha/BRTS-Navigator">🚌 BRTS Navigator</a></b><br/>
+      Zero-dependency public transit routing via pure BFS algorithm execution. Written entirely in Python.
+    </td>
+    <td width="50%">
+      <b><a href="https://github.com/notnamansinha/Janmarg-Navigator-Landing-Page">🌐 Janmarg Landing</a></b><br/>
+      Vibe-coding the future of transit interfaces using React 19, Framer Motion, and Tailwind.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <b><a href="https://github.com/notnamansinha/Bus_Track">📍 Bus Track</a></b><br/>
+      Real-time public transit tracking implementation.
+    </td>
+    <td width="50%">
+      <b><a href="https://github.com/notnamansinha/KN_KING_C_Programming">📖 K.N. King C Programming</a></b><br/>
+      Reading the definitive text on Modern C and writing out every single exercise.
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -206,13 +192,16 @@ notnaman@root:~$ █
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░ TROPHIES & SNAKE ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
-## `〔 07 〕` Achievements & Graph Traversal
+## `〔 07 〕` Achievement & Traversal
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=notnamansinha&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" />
+**📈 Contribution Graph**
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=notnamansinha&bg_color=1a1b27&color=58A6FF&line=58A6FF&point=FF6E40&area=true&hide_border=true" width="95%" />
 
 <br/><br/>
+
 
 **🐍 Contribution Snake — BFS Edition**
 
@@ -236,19 +225,14 @@ notnaman@root:~$ █
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░ SPOTIFY & QUOTE ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
-## `〔 08 〕` Neural BGM & Closing Thought
+## `〔 08 〕` Closing Thought
 
 <div align="center">
-
-**🎵 Currently Playing**
-
-[![Spotify](https://novatorem-cyan.vercel.app/api/spotify)](https://open.spotify.com/user/31algq3uy2aw5kk6zphrspnayl5q)
-
-<br/>
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="80%" />
 
 <br/><br/>
+
 
 <samp>
 If you've read this far, you either have exceptional taste or you're a recruiter. Either way — hi! 👋
