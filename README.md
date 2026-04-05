@@ -1,22 +1,43 @@
 <div align="center">
 
-```text
-███╗   ██╗ ██████╗ ████████╗    ███╗   ███╗███████╗
-████╗  ██║██╔═══██╗╚══██╔══╝    ████╗ ████║██╔════╝
-██╔██╗ ██║██║   ██║   ██║       ██╔████╔██║█████╗  
-██║╚██╗██║██║   ██║   ██║       ██║╚██╔╝██║██╔══╝  
-██║ ╚████║╚██████╔╝   ██║       ██║ ╚═╝ ██║███████╗
-╚═╝  ╚═══╝ ╚═════╝    ╚═╝       ╚═╝     ╚═╝╚══════╝
 ```
-<samp>
-▁▂▃▄▅▆▇█▓▒░  oscillating.brain_waves  ░▒▓█▇▆▅▄▃▂▁
-</samp>
+███╗   ██╗ █████╗ ███╗   ███╗ █████╗ ███╗   ██╗
+████╗  ██║██╔══██╗████╗ ████║██╔══██╗████╗  ██║
+██╔██╗ ██║███████║██╔████╔██║███████║██╔██╗ ██║
+██║╚██╗██║██╔══██║██║╚██╔╝██║██╔══██║██║╚██╗██║
+██║ ╚████║██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║
+╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+```
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=900&color=39FF14&background=0A0E1200&center=true&vCenter=true&width=700&height=40&lines=Executing+BFS+pathfinding+heuristic...;Target+node+acquired+in+0.04s.;Initializing+vibe-coding+subroutines...;Compiling+elite+architecture...;Building+elegant+abstractions+since+day+zero.)](https://git.io/typing-svg)
 
 </div>
 
+---
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  SYSTEM BOOT  ::  notnamansinha  ::  REV 2.6.0-EECS             ║
+╠══════════════════════════════════════════════════════════════════╣
+║  ENTITY    Naman Kumar Sinha                                     ║
+║  ROLE      EECS Undergrad / Systems Architect / Transit Hacker   ║
+║  WEB       naknav.in                                             ║
+╠══════════════════════════════════════════════════════════════════╣
+║  STACK     C // C++ // Python // TypeScript // Bash              ║
+║  LAYER_0   React 19 · Next.js · Framer Motion · Tailwind         ║
+║  LAYER_1   BFS · Graph Routing · Memory Management               ║
+║  PARADIGM  Vibe Coding (AI-orchestrated architecture)            ║
+╠══════════════════════════════════════════════════════════════════╣
+║  CONTACT   linkedin.com/in/notnamansinha                         ║
+║  COMMIT    github.com/notnamansinha                              ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 <div align="center">
 
-```text
+```
 *#******+++******#+=+*******##**********##******+++++***++++*****##++==========+*##******+=+#*++++**
 *#####*****++=***==+*****####*************####*****++==++*****##*==+===+===+======*##*****++=++****#
 **#+===**##***+**+****####*********#******#***####********##**=========+==+==========*##*******####*
@@ -74,101 +95,75 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%+=..............=+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
 ```
 
-</div>
-
----
-
-```bash
-$ whoami
-> notnamansinha
-
-$ cat origin_story.txt
-> arrived from [REDACTED] with a soldering iron and a 
-> theory about decentralized transit systems...
-> i work at the intersection of silicon and skepticism.
-> currently reverse-engineering my own assumptions about 
-> algorithms while attending lectures i occasionally understand.
-> looking for collaborators who aren't afraid of undefined behavior.
-
-$ ./current_obsessions --verbose
-> [1] pure BFS routing (zero-dep) -> 'optimization over abstraction'
-> [2] compiler design -> 'translating thought into voltage'
-> [3] the intersection of hardware and mythology -> 'ghosts in the machine'
-```
-
----
-
-<div align="left">
-
-### `=== LAB NOTEBOOK: SCHEMATICS ===`
-
-```text
-[PROJECT_01] -> BRTS-Navigator (Transit Engine)
-   The computational inverse of modern bloated software. 
-   Written entirely in Python. Zero dependencies.
-
-   [GRAPH_NODE] -----> [BFS_QUEUE] -----> [OPTIMAL_PATH]
-       ^                    |                   |
-       |--------------------|-------------------| (Feedback loop)
-
-
-[PROJECT_02] -> Bus_Track (Telemetry Interface)
-   Real-time system state monitoring. 
-
-   (SATELLITE) ~ ~ > [RECEIVER] ====> [STATE_MACHINE] ---> (UI)
-
-
-[PROJECT_03] -> Janmarg-Landing (Vibe Engine)
-   React 19 + Framer Motion. Edge case rendering.
-
-   {STATE_X} -----(transform)-----> {STATE_Y}
-```
+<img src="https://raw.githubusercontent.com/notnamansinha/notnamansinha/main/assets/bfs.svg" width="820" alt="BFS Pathfinding Visualization" />
 
 </div>
 
 ---
 
-### `=== THE ANTI-PORTFOLIO ===`
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  ARTIFACT_LOG  ::  ACTIVE REPOSITORIES                          ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
-```text
-> /dev/null
+| Artifact | Context | Engineering Summary |
+|:---------|:--------|:--------------------|
+| [BRTS-Navigator](https://github.com/notnamansinha/BRTS-Navigator) | `Algorithmic Routing Engine` | Zero-dependency BFS implementation in pure Python achieving O(V+E) sub-second pathfinding across Ahmedabad's public transit node network; no framework, no abstractions. |
+| [Janmarg-Landing](https://github.com/notnamansinha/Janmarg-Navigator-Landing-Page) | `Vibe Coding Sandbox` | An AI-orchestrated frontend system using React 19 + Framer Motion where the human directs architecture and LLMs handle syntax—a deliberate inversion of traditional development roles. |
+| [Bus_Track](https://github.com/notnamansinha/Bus_Track) | `Telemetry Interface` | Real-time geospatial state-machine tracking vehicle position across a live transit network with consistent sub-second state refresh. |
+| [KN_KING_C](https://github.com/notnamansinha/KN_KING_C_Programming) | `Low-Level Systems Archive` | Exhaustive, memory-safe implementations from K.N. King's canonical text—exercises in pointer arithmetic, heap discipline, and the precise manipulation of raw memory the way CS107 demands. |
 
-[THINGS I'M TERRIBLE AT]
-- Writing "passionate about code" on LinkedIn.
-- Aligning CSS without grid.
-- Remembering to hydrate during a memory leak hunt.
+---
 
-[REJECTED IDEAS]
-- A blockchain for bus tickets (too much latency, not enough buses).
-- Over-engineering simple scripts with Docker.
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  THE ANTI-PORTFOLIO  ::  EPISTEMIC HONESTY MODULE               ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+```
+> ./enumerate_failures --honest --verbose
+
+[GROVELLED OVER] :: aligning CSS divs without grid. every time.
+[REJECTED IDEA]  :: blockchain-based bus ticket system.
+                    autopsy: too much latency; not enough buses.
+[CURRENT KLUDGE] :: everything before it gets refactored.
+[GRONKED]        :: production BFS on an edge case with a cyclic
+                    graph and no visited set. classic.
+
+> /dev/null        <- philosophical exit point. goes nowhere.
+                      that's the point.
 ```
 
 ---
 
-### `=== COMPILE ME ===`
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  COMPILE ME  ::  EASTER EGG MODULE                              ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
 ```c
-/* Easter Egg */
+/* gcc -o notnamansinha contact.c && ./notnamansinha */
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-    char *links[] = {
-        "linkedin.com/in/notnamansinha",
-        "github.com/notnamansinha",
-        "[ERROR: email address lost in heap allocation]"
+typedef struct { char *platform; char *handle; } Node;
+
+int main(void) {
+    Node graph[] = {
+        {"github",   "github.com/notnamansinha"},
+        {"linkedin", "linkedin.com/in/notnamansinha"},
+        {"web",      "naknav.in"},
     };
-    
-    for (int i = 0; i < 2; i++) {
-        printf("Connection established: %s\n", links[i]);
-    }
-    
+    size_t V = sizeof(graph) / sizeof(graph[0]);
+    for (size_t i = 0; i < V; i++)
+        printf("[%s]\t%s\n", graph[i].platform, graph[i].handle);
     return EXIT_SUCCESS;
 }
 ```
 
 <div align="center">
-<samp>
-  [ EOF ]  //  The exception that proves the rule. ¯\_(ツ)_/¯
-</samp>
+<samp>// EOF :: the exception that proves the rule ¯\_(ツ)_/¯</samp>
 </div>

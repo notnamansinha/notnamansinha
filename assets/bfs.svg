@@ -1,0 +1,88 @@
+<svg viewBox="0 0 820 300" xmlns="http://www.w3.org/2000/svg" width="820" height="300">
+<foreignObject width="820" height="300">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<style>
+  :root {
+    --bg: #0a0e12;
+    --text-p: #39ff14;
+    --text-m: #2d6e21;
+    --node-off: #111f11;
+    --node-on: #39ff14;
+    --glow: rgba(57,255,20,0.55);
+    --line: #1a3a1a;
+    --border: #1e4d1e;
+    --scanline: rgba(0,0,0,0.18);
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f0f4f8;
+      --text-p: #0052cc;
+      --text-m: #5b8ac7;
+      --node-off: #c5d5ea;
+      --node-on: #0052cc;
+      --glow: rgba(0,82,204,0.4);
+      --line: #a8c0dd;
+      --border: #7aaad4;
+      --scanline: rgba(0,0,60,0.04);
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:820px;height:300px;overflow:hidden}
+  .w{
+    width:820px;height:300px;background:var(--bg);
+    border:1px solid var(--border);
+    display:flex;flex-direction:column;
+    align-items:center;justify-content:center;
+    position:relative;overflow:hidden;
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",Courier,monospace;
+  }
+  .sl{
+    position:absolute;top:0;left:0;right:0;bottom:0;
+    background:repeating-linear-gradient(to bottom,transparent,transparent 2px,var(--scanline) 2px,var(--scanline) 4px);
+    pointer-events:none;z-index:9;
+    animation:flicker 9s ease-in-out infinite;
+  }
+  @keyframes flicker{0%,93%,100%{opacity:1}96%{opacity:.82}98%{opacity:.96}}
+  .lbl-top{
+    color:var(--text-p);font-size:11px;letter-spacing:.28em;
+    text-transform:uppercase;margin-bottom:14px;opacity:.9;
+  }
+  .lbl-top .dim{color:var(--text-m)}
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(10,1fr);
+    grid-template-rows:repeat(5,1fr);
+    gap:7px;padding:4px;
+  }
+  .n{
+    width:16px;height:16px;border-radius:50%;
+    background:var(--node-off);border:1px solid var(--line);
+    animation:pulse 3.8s ease-in-out infinite;
+    animation-delay:calc((var(--r,0) + var(--c,0)) * 190ms);
+  }
+  @keyframes pulse{
+    0%,100%{background:var(--node-off);box-shadow:none;border-color:var(--line)}
+    40%,65%{background:var(--node-on);box-shadow:0 0 10px var(--glow),0 0 20px var(--glow);border-color:var(--node-on)}
+    90%{background:var(--node-off);box-shadow:none}
+  }
+  .lbl-bot{
+    color:var(--text-m);font-size:9px;letter-spacing:.22em;
+    text-transform:uppercase;margin-top:14px;
+  }
+  .lbl-bot em{color:var(--text-p);font-style:normal}
+</style>
+<div class="w">
+  <div class="sl"></div>
+  <div class="lbl-top">BFS PATHFINDING ENGINE <span class="dim">::</span> BRTS-NAVIGATOR <span class="dim">::</span> LIVE SIM</div>
+  <div class="grid">
+    <div class="n" style="--r:0;--c:0"></div><div class="n" style="--r:0;--c:1"></div><div class="n" style="--r:0;--c:2"></div><div class="n" style="--r:0;--c:3"></div><div class="n" style="--r:0;--c:4"></div><div class="n" style="--r:0;--c:5"></div><div class="n" style="--r:0;--c:6"></div><div class="n" style="--r:0;--c:7"></div><div class="n" style="--r:0;--c:8"></div><div class="n" style="--r:0;--c:9"></div>
+    <div class="n" style="--r:1;--c:0"></div><div class="n" style="--r:1;--c:1"></div><div class="n" style="--r:1;--c:2"></div><div class="n" style="--r:1;--c:3"></div><div class="n" style="--r:1;--c:4"></div><div class="n" style="--r:1;--c:5"></div><div class="n" style="--r:1;--c:6"></div><div class="n" style="--r:1;--c:7"></div><div class="n" style="--r:1;--c:8"></div><div class="n" style="--r:1;--c:9"></div>
+    <div class="n" style="--r:2;--c:0"></div><div class="n" style="--r:2;--c:1"></div><div class="n" style="--r:2;--c:2"></div><div class="n" style="--r:2;--c:3"></div><div class="n" style="--r:2;--c:4"></div><div class="n" style="--r:2;--c:5"></div><div class="n" style="--r:2;--c:6"></div><div class="n" style="--r:2;--c:7"></div><div class="n" style="--r:2;--c:8"></div><div class="n" style="--r:2;--c:9"></div>
+    <div class="n" style="--r:3;--c:0"></div><div class="n" style="--r:3;--c:1"></div><div class="n" style="--r:3;--c:2"></div><div class="n" style="--r:3;--c:3"></div><div class="n" style="--r:3;--c:4"></div><div class="n" style="--r:3;--c:5"></div><div class="n" style="--r:3;--c:6"></div><div class="n" style="--r:3;--c:7"></div><div class="n" style="--r:3;--c:8"></div><div class="n" style="--r:3;--c:9"></div>
+    <div class="n" style="--r:4;--c:0"></div><div class="n" style="--r:4;--c:1"></div><div class="n" style="--r:4;--c:2"></div><div class="n" style="--r:4;--c:3"></div><div class="n" style="--r:4;--c:4"></div><div class="n" style="--r:4;--c:5"></div><div class="n" style="--r:4;--c:6"></div><div class="n" style="--r:4;--c:7"></div><div class="n" style="--r:4;--c:8"></div><div class="n" style="--r:4;--c:9"></div>
+  </div>
+  <div class="lbl-bot">complexity: <em>O(V+E)</em> &nbsp;&#183;&nbsp; queue depth: <em>live</em> &nbsp;&#183;&nbsp; operator: <em>@notnamansinha</em></div>
+</div>
+</div>
+</foreignObject>
+</svg>
