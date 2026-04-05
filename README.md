@@ -1,79 +1,112 @@
 <div align="center">
-  
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:0d1117&height=200&section=header&text=Naman%20Sinha&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=EECS%20Undergrad%20%7C%20Software%20Engineering%20%7C%20Transit%20Systems&descSize=20&descAlignY=60&descColor=8b949e&animation=fadeIn" />
 
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/notnamansinha)
-[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=flat-square&logo=github&logoColor=white)](https://github.com/notnamansinha)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:notnamansinha@gmail.com)
+```text
+███╗   ██╗ ██████╗ ████████╗    ███╗   ███╗███████╗
+████╗  ██║██╔═══██╗╚══██╔══╝    ████╗ ████║██╔════╝
+██╔██╗ ██║██║   ██║   ██║       ██╔████╔██║█████╗  
+██║╚██╗██║██║   ██║   ██║       ██║╚██╔╝██║██╔══╝  
+██║ ╚████║╚██████╔╝   ██║       ██║ ╚═╝ ██║███████╗
+╚═╝  ╚═══╝ ╚═════╝    ╚═╝       ╚═╝     ╚═╝╚══════╝
+```
+<samp>
+▁▂▃▄▅▆▇█▓▒░  oscillating.brain_waves  ░▒▓█▇▆▅▄▃▂▁
+</samp>
 
 </div>
 
-<br/>
+---
 
-## About
+```bash
+$ whoami
+> notnamansinha
 
-I am an EECS undergraduate student passionate about software engineering, specifically backend systems, algorithm design, and public transit technology. I focus on building efficient, clean, and scalable applications using Python, C/C++, and modern JavaScript frameworks. 
+$ cat origin_story.txt
+> arrived from [REDACTED] with a soldering iron and a 
+> theory about decentralized transit systems...
+> i work at the intersection of silicon and skepticism.
+> currently reverse-engineering my own assumptions about 
+> algorithms while attending lectures i occasionally understand.
+> looking for collaborators who aren't afraid of undefined behavior.
 
-## Featured Projects
+$ ./current_obsessions --verbose
+> [1] pure BFS routing (zero-dep) -> 'optimization over abstraction'
+> [2] compiler design -> 'translating thought into voltage'
+> [3] the intersection of hardware and mythology -> 'ghosts in the machine'
+```
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/notnamansinha/BRTS-Navigator">BRTS Navigator</a></b><br/>
-      A routing engine for public transit utilizing Breadth-First Search (BFS) for optimal pathfinding. Built entirely in Python without external dependencies.
-    </td>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/notnamansinha/Janmarg-Navigator-Landing-Page">Janmarg Landing Page</a></b><br/>
-      A modern user interface for transit routing built with React 19, Framer Motion, and Tailwind CSS.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/notnamansinha/Bus_Track">Bus Track</a></b><br/>
-      A real-time public transit tracking system for precise vehicle location monitoring.
-    </td>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/notnamansinha/KN_KING_C_Programming">C Programming Solutions</a></b><br/>
-      Comprehensive solutions and implementations for exercises from K.N. King's "C Programming: A Modern Approach".
-    </td>
-  </tr>
-</table>
+---
 
-## Technical Skills
+<div align="left">
+
+### `=== LAB NOTEBOOK: SCHEMATICS ===`
+
+```text
+[PROJECT_01] -> BRTS-Navigator (Transit Engine)
+   The computational inverse of modern bloated software. 
+   Written entirely in Python. Zero dependencies.
+
+   [GRAPH_NODE] -----> [BFS_QUEUE] -----> [OPTIMAL_PATH]
+       ^                    |                   |
+       |--------------------|-------------------| (Feedback loop)
+
+
+[PROJECT_02] -> Bus_Track (Telemetry Interface)
+   Real-time system state monitoring. 
+
+   (SATELLITE) ~ ~ > [RECEIVER] ====> [STATE_MACHINE] ---> (UI)
+
+
+[PROJECT_03] -> Janmarg-Landing (Vibe Engine)
+   React 19 + Framer Motion. Edge case rendering.
+
+   {STATE_X} -----(transform)-----> {STATE_Y}
+```
+
+</div>
+
+---
+
+### `=== THE ANTI-PORTFOLIO ===`
+
+```text
+> /dev/null
+
+[THINGS I'M TERRIBLE AT]
+- Writing "passionate about code" on LinkedIn.
+- Aligning CSS without grid.
+- Remembering to hydrate during a memory leak hunt.
+
+[REJECTED IDEAS]
+- A blockchain for bus tickets (too much latency, not enough buses).
+- Over-engineering simple scripts with Docker.
+```
+
+---
+
+### `=== COMPILE ME ===`
+
+```c
+/* Easter Egg */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char *links[] = {
+        "linkedin.com/in/notnamansinha",
+        "github.com/notnamansinha",
+        "[ERROR: email address lost in heap allocation]"
+    };
+    
+    for (int i = 0; i < 2; i++) {
+        printf("Connection established: %s\n", links[i]);
+    }
+    
+    return EXIT_SUCCESS;
+}
+```
 
 <div align="center">
-
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,html,css" />
-<br/><br/>
-
-**Frameworks**<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,vite,firebase" />
-<br/><br/>
-
-**Tools**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,vscode,vercel" />
-
+<samp>
+  [ EOF ]  //  The exception that proves the rule. ¯\_(ツ)_/¯
+</samp>
 </div>
-
-<br/>
-
-## Activity & Metrics
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=notnamansinha&theme=tokyonight&border=58A6FF&stroke=58A6FF&ring=58A6FF&fire=FF6E40&currStreakLabel=58A6FF" width="70%" />
-
-<br/><br/>
-
-**Contribution History**
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=notnamansinha&bg_color=1a1b27&color=58A6FF&line=58A6FF&point=FF6E40&area=true&hide_border=true" width="95%" />
-
-<br/><br/>
-
-</div>
-
-
