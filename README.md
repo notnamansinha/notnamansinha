@@ -4,130 +4,76 @@
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░ ANIMATED HEADER WAVE ░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b4b,100:58A6FF&height=200&section=header&text=Naman%20Kumar%20Sinha&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=EECS%20Student%20%7C%20Builder%20%7C%20Open%20Source%20Enthusiast&descSize=20&descAlignY=60&descColor=8b949e&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b4b,100:58A6FF&height=200&section=header&text=Naman%20Kumar%20Sinha&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=EECS%20Undergrad%20%7C%20Systems%20Hacker%20%7C%20Transit%20Tech%20Architect&descSize=20&descAlignY=60&descColor=8b949e&animation=fadeIn" />
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░ TYPING ANIMATION BANNER ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <div align="center">
 
 <a href="https://github.com/notnamansinha">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=58A6FF&background=0D111700&center=true&vCenter=true&random=false&width=650&lines=👋+Hey+there+I'm+Naman+Kumar+Sinha;🎓+EECS+Student+%7C+Python+%7C+C+%7C+C%2B%2B+%7C+JS;🚌+Building+intelligent+transit+systems;🔍+Graph+algorithms+%26+BFS+enthusiast;🤝+Open+to+opportunities+%26+collaborations;💡+Vibe+coding+with+AI+tools" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=58A6FF&background=0D111700&center=true&vCenter=true&random=false&width=750&lines=👋+Hey,+I'm+Naman.;🧠+Debugging+memory+leaks+at+2+AM...;🚌+Optimizing+city-scale+transit+routing;⚡+Building+zero-dependency+graph+algorithms;📚+Reading+K.N.+King's+Modern+C+for+fun;💡+Vibe+coding+the+frontend,+hacking+the+backend" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ VERIFIED BADGES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ PERSONALITY BADGES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
-![Verified](https://img.shields.io/badge/Verified-Dev-58A6FF?style=flat-square&logo=academia&logoColor=white) 
-![GitHub Pro](https://img.shields.io/badge/GitHub-Pro-FFD700?style=flat-square&logo=github&logoColor=white)
-
-<br/><br/>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ SOCIAL BADGES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-<a href="https://www.linkedin.com/in/notnamansinha" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/notnamansinha" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="mailto:notnamansinha@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<br/><br/>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ PROFILE METRICS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-<img src="https://komarev.com/ghpvc/?username=notnamansinha&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" />
-&nbsp;
-<a href="https://github.com/notnamansinha?tab=followers">
-  <img src="https://img.shields.io/github/followers/notnamansinha?style=for-the-badge&color=58A6FF&labelColor=0d1117&logo=github&label=FOLLOWERS" />
-</a>
-&nbsp;
-<img src="https://img.shields.io/github/stars/notnamansinha?style=for-the-badge&color=FFD700&labelColor=0d1117&logo=github&label=TOTAL+STARS" />
-
-</div>
+![Cups of Coffee](https://img.shields.io/badge/Coffee-∞-58A6FF?style=flat-square&logo=coffeescript&logoColor=white) 
+![Debugging](https://img.shields.io/badge/Currently_Debugging-Yes-FF6E40?style=flat-square&logo=issuu&logoColor=white)
+![Night Owl](https://img.shields.io/badge/Sleep_Schedule-Deprecated-8b949e?style=flat-square&logo=moon&logoColor=white)
 
 <br/>
 
----
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ LIVE PRESENCE SECTION ░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░ LIVE PRESENCE SECTION ░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-<div align="center">
-
-### 🎵 Listening To / Live Status
+### 🎵 Neural BGM 
 <a href="https://open.spotify.com/user/31algq3uy2aw5kk6zphrspnayl5q">
   <img src="https://novatorem-spotify-card.vercel.app/api/now-playing?user=31algq3uy2aw5kk6zphrspnayl5q" width="400" alt="Spotify Now Playing" /> 
 </a>
 
 <br/>
-
-[![Discord Status](https://lanyard.websandbox.pro/api/248330792)](https://discord.com/users/notnamansinha) <!-- Placeholder ID -->
-
+<samp>Last updated: $(date +'%Y-%m-%d %H:%M:%S') IST</samp>
 </div>
 
 <br/>
 
 ---
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░ ABOUT ME ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+## `〔 01 〕` The Hook
 
-<img align="right" src="https://raw.githubusercontent.com/gist/ManulMax/2d20af60d709805c55fd784ca7cba4b9/raw/bcfeac7604f674ace63623106eb8bb8471d844a/github.gif" width="200" />
+I'm an EECS undergrad obsessing over the intersection of low-level systems and high-impact transit tech. While others are pulling in another dozen npm dependencies, I'm usually deep in the weeds writing pure-Python BFS routing algorithms from scratch or reading K.N. King's *C Programming* like it's a beach novel. 
 
-## `〔 01 〕` Who Am I?
-
-```python
-class NotNamanSinha:
-    def __init__(self):
-        self.name       = "Naman Kumar Sinha"
-        self.handle     = "@notnamansinha"
-        self.role       = "EECS Student"
-        self.languages  = ["Python", "C", "C++", "JavaScript", "TypeScript"]
-        self.interests  = ["Systems Programming", "Graph Algorithms", "Transit Tech",
-                           "Open Source", "AI-assisted Development"]
-        self.currently  = "Building intelligent public transit solutions 🚌"
-        self.status     = "Open to opportunities 🚀"
-        self.vibe_coding= True
-    
-    def say_hi(self):
-        return "Thanks for dropping by! Let's build something awesome together."
-
-me = NotNamanSinha()
-print(me.say_hi())
-```
+I believe code should run close to the metal when it has to, and scale beautifully when it needs to. I vibe code modern, cinematic frontends (React 19 + Framer Motion) during the day, and dive into operating systems and pointer arithmetic at night. If it optimizes a city's bus routes or requires managing my own heap memory, I'm probably building it.
 
 <br/>
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ LEARNING PROGRESS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+## `〔 02 〕` Operational Status
 
-### 📈 Learning Journey & Progress
-- **C Programming (K.N. King)**
-![Progress](https://progress-bar.dev/65/?title=Modern%20C&color=58A6FF)
-- **Data Structures & Algorithms**
-![Progress](https://progress-bar.dev/80/?title=DSA&color=58A6FF)
-- **Frontend Mastery (React 19)**
-![Progress](https://progress-bar.dev/50/?title=React19&color=58A6FF)
+```bash
+notnaman@root:~$ cat /proc/current_obsessions
+============================================
+[1] BRTS Navigator       -> Engineering zero-dependency public transit routing via pure BFS.
+[2] Janmarg-Landing      -> Vibe-coding the future of transit interfaces with React 19.
+[3] Systems Architecture -> Deep diving into C/C++ memory management and hardware interfacing.
+[4] The Meta             -> Automating this profile with GitHub Actions and CI/CD pipelines.
+```
 
 <br/>
 
 ---
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ TECH STACK ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-## `〔 02 〕` Tech Arsenal
+## `〔 03 〕` The Stack
 
 <div align="center">
 
 ### ⚡ Languages
 <img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,html,css&perline=7" />
 
-### 🌐 Frontend & Frameworks
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite&perline=7" />
+### 🌐 Full Stack & Frameworks
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,firebase,nodejs&perline=7" />
 
-### 🛠 Tools & Platforms  
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,vercel,firebase,nodejs&perline=7" />
+### 🛠 Tools & Telemetry
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,vercel,bash,githubactions&perline=7" />
 
 </div>
 
@@ -135,122 +81,63 @@ print(me.say_hi())
 
 ---
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ FEATURED PROJECTS ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-## `〔 03 〕` Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/notnamansinha/BRTS-Navigator">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=BRTS-Navigator&theme=github_dark&border_color=58A6FF&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&description_lines_count=2" />
-</a>
-<a href="https://github.com/notnamansinha/Janmarg-Navigator-Landing-Page">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=Janmarg-Navigator-Landing-Page&theme=github_dark&border_color=58A6FF&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&description_lines_count=2" />
-</a>
-
-</div>
-
-<br/>
-
-<!-- ░░░░░░░░ DYNAMIC ACTIVITY & STATS ROW ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+## `〔 04 〕` Analytics & Telemetry
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="50%" valign="top" align="center">
 
-## `〔 04 〕` Recent Activity ⚡
+### 📈 GitHub Stats
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=notnamansinha&show_icons=true&theme=tokyonight&border_color=58A6FF&title_color=58A6FF&icon_color=58A6FF&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" />
+
+</td>
+<td width="50%" valign="top" align="center">
+
+### 🔥 Streak Dynamics
+<img width="100%" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=notnamansinha&theme=tokyonight&border=58A6FF&stroke=58A6FF&ring=58A6FF&fire=FF6E40&currStreakLabel=58A6FF" />
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### ⏱ WakaTime Telemetry
+<!--START_SECTION:waka-->
+![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=notnamansinha&theme=tokyonight&layout=compact) 
+<!--END_SECTION:waka-->
+
+<br/>
+
+### 🐍 Algorithmic Traversal (Contribution Snake)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/notnamansinha/notnamansinha/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/notnamansinha/notnamansinha/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+</div>
+
+<br/>
+
+---
+
+## `〔 05 〕` Live Logs
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ Terminal History (Recent Activity)
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#5](https://github.com/sunsetnightshade/stat_cli/pull/5) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
-2. 💪 Opened PR [#3](https://github.com/sunsetnightshade/stat_cli/pull/3) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
-3. 🎉 Merged PR [#2](https://github.com/sunsetnightshade/stat_cli/pull/2) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
-4. 💪 Opened PR [#2](https://github.com/sunsetnightshade/stat_cli/pull/2) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
-5. 🎉 Merged PR [#1](https://github.com/sunsetnightshade/stat_cli/pull/1) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
 <!--END_SECTION:activity-->
 
 </td>
-<td width="45%" valign="top">
+<td width="50%" valign="top">
 
-## `〔 05 〕` Problem Solving 🧩
-<a href="https://github.com/notnamansinha">
-  <img src="https://github-readme-leetcode.vercel.app/api?username=notnamansinha&theme=github_dark&hide_border=false" width="100%" alt="LeetCode Stats" />
-</a>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ WEEKLY CODING STATS ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-## `〔 06 〕` Weekly Coding Activity (WakaTime)
-
-<div align="center">
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 28 March 2026 - To: 04 April 2026
-
-Total Time: 0 secs
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
-
-</div>
-
-<br/>
-
----
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ GITHUB ANALYTICS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-## `〔 07 〕` GitHub Engagement
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=notnamansinha&show_icons=true&theme=github_dark&border_color=58A6FF&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github&show=reviews,discussions_started" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=notnamansinha&layout=compact&theme=github_dark&border_color=58A6FF&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&hide_border=false&langs_count=8" />
-
-<br/><br/>
-
-<img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=notnamansinha&theme=github-dark-blue&border=58A6FF&background=0d1117&stroke=58A6FF&ring=58A6FF&fire=FF6E40&currStreakLabel=58A6FF&sideLabels=c9d1d9&dates=8b949e&sideNums=58A6FF" />
-
-</div>
-
-<br/>
-
----
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░ ANIMATIONS SECTION ░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-<table border="0">
-<tr>
-<td width="30%" align="center">
-
-### Snake 🐍
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/notnamansinha/notnamansinha/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/notnamansinha/notnamansinha/output/github-snake-dark.svg" />
-</picture>
-
-</td>
-<td width="40%" align="center">
-
-### 3D Contribution 🧱
+### 🧱 3D Contribution Render
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
 
 </td>
-<td width="30%" align="center">
-
-### Trophies 🏆
-<img src="https://github-profile-trophy.vercel.app/?username=notnamansinha&theme=algolia&no-frame=true&no-bg=true&column=2" />
-
-</td>
 </tr>
 </table>
 
@@ -258,42 +145,19 @@ No activity tracked
 
 ---
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░ EXPLORE & FEEDBACK ░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-## `〔 08 〕` Daily Dev Insights
+## `〔 06 〕` Closing Thoughts
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="80%" />
-
-<br/><br/>
-
-<img src="https://readme-jokes.vercel.app/api?hideBorder&theme=github_dark&bgColor=%230d1117&borderColor=%2358A6FF&qColor=%2358A6FF&aColor=%23c9d1d9&textColor=%238b949e&codeColor=%23FF6E40" width="60%" />
-
-</div>
-
-<br/>
-
----
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ FOOTER SECTION ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1500&color=58A6FF&center=true&vCenter=true&width=600&lines=🚀+Building+the+future+one+commit+at+a+time.;🤝+Let's+connect+and+innovate!;📬+Open+source+is+the+way." />
-
-<br/>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ LAST UPDATED ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<samp>Last updated: $(date +'%Y-%m-%d %H:%M:%S') IST</samp> <!-- This is typical placeholder for workflows -->
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="80%" />
 
 <br/><br/>
 
 <a href="https://www.linkedin.com/in/notnamansinha">
-  <img src="https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://github.com/notnamansinha">
-  <img src="https://img.shields.io/badge/Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 <br/><br/>
@@ -301,7 +165,3 @@ No activity tracked
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1a1b4b,100:0d1117&height=120&section=footer&animation=fadeIn" />
 
 </div>
-
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║           Made with ❤️ by Naman Kumar Sinha · @notnamansinha           ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
