@@ -76,35 +76,4 @@ I am an EECS undergraduate student passionate about software engineering, specif
 
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
 
-**Weekly Coding Log**
-<!--START_SECTION:waka-->
-
-```txt
-From: 28 March 2026 - To: 04 April 2026
-
-Total Time: 0 secs
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
-
-</td>
-<td width="50%" valign="top">
-
-**Recent Commits**
-<!--START_SECTION:activity-->
-1. 💪 Opened PR [#5](https://github.com/sunsetnightshade/stat_cli/pull/5) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
-2. 💪 Opened PR [#3](https://github.com/sunsetnightshade/stat_cli/pull/3) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
-3. 🎉 Merged PR [#2](https://github.com/sunsetnightshade/stat_cli/pull/2) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
-4. 💪 Opened PR [#2](https://github.com/sunsetnightshade/stat_cli/pull/2) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
-5. 🎉 Merged PR [#1](https://github.com/sunsetnightshade/stat_cli/pull/1) in [sunsetnightshade/stat_cli](https://github.com/sunsetnightshade/stat_cli)
-<!--END_SECTION:activity-->
-
-</td>
-</tr>
-</table>
