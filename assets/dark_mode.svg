@@ -1,100 +1,92 @@
-<svg viewBox="0 0 980 430" xmlns="http://www.w3.org/2000/svg" width="980" height="430">
-<foreignObject width="980" height="430">
-<div xmlns="http://www.w3.org/1999/xhtml">
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-html,body{width:980px;height:430px;overflow:hidden;background:#1a1a1a}
-.w{display:flex;width:980px;height:430px;background:#1a1a1a;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",Courier,monospace}
-.left{width:390px;min-width:390px;padding:6px 0 6px 4px;overflow:hidden}
-.face{font-size:6.2px;line-height:1.2;white-space:pre;color:#888;letter-spacing:0;display:block}
-.right{flex:1;padding:12px 18px 8px 16px;border-left:1px solid #2a2a2a;display:flex;flex-direction:column;gap:0;overflow:hidden}
-.uname{font-size:13px;color:#d4d4d4;white-space:nowrap;margin-bottom:3px}
-.uname .at{color:#e09b3d}
-.uname .sep{color:#444}
-.row{display:flex;font-size:10px;line-height:1.6;white-space:nowrap}
-.b{color:#e09b3d;width:12px}
-.k{color:#e09b3d;flex-shrink:0}
-.d{flex:1;color:#444;overflow:hidden;white-space:nowrap}
-.v{color:#d4d4d4;flex-shrink:0;text-align:right}
-.gap{height:6px}
-.sh{font-size:10px;color:#d4d4d4;margin:4px 0 2px 0;white-space:nowrap}
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.cc {fill: #616e7f;}
+.ascii {fill: #8b949e; font-size: 10.5px;}
+text, tspan {white-space: pre;}
 </style>
-<div class="w">
-<div class="left"><pre class="face">                                                      @@@@@@                                        
-                                    @@@@@@   @@@@  @@@@@@@@@  @@@                                   
-                                   @@@@@@@@  @@@@@ @@@@@@@@  @@@@@@                                 
-                          @@@@@@ @@@%%@@@@@@@@@@@@@@@@@@@@@@@%@@@@@  @@@@@                          
-                         @@@  @@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                         
-                         @@@@@@@@@@%%%%%%%@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@ @@@                       
-                         @@@@@@@@%%%%@@@@%%%@@@@@@@@@@@@@@@@@@%%@@@%%%%@@@@@@                       
-                          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@%@@@@@@                       
-                          %%@@@@@@%@%%%@@@@@@@@@@@%%%%%%%@@@@@@@@@@@@@@@@%%%@@@                     
-                      @@%%%@@@@@@@@%%%@@@@@@@@@%%@@@@@@@@@%@@@@@@@@@@@@@@@@@%%@@@                   
-                      @%%%@@@@@@@%%@@@@@@@@@@%%@@@@@@%@@@@%%%@%@@@@@@@@@@@@@@%%@@                   
-                      @%%@@@@@@@@@@@@@@%%%@@@@%%%%@@@@@@@%%@%%%@@@@@@@@@@@@@@@@@                    
-                      @%@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@%@@@@@@@@@@@@%@@%@@@@@                    
-                      @@@@@@@@@@@@@@%%@@@%@@@%#@%%@@@@@@%@@@@@@@@@@@@@@%%%%@@@@@@                   
-                     @@@@@@@@@@@@@@@%%%%@@%***++*@@@@@%@@@@@@@@@@@@@@@@%%@@@@%@@@                   
-                  @@@@@@@@@@@@@@@@@@@%%%@#*++++*%@#%@@%@@@%@%%@@@@@%@@%%%@@%%@@@@                   
-                 @@%%%%%%@@@@@@%@@@@@%%%@%%%%%+*%#***@@@@%%%%@@@@@@%@%%@@%%%@@@@@                   
-             @@@@@%%@@@@@@@@@@@@@@%+@@************+++%@@@%%%@@#*****%%%@@@@@@@@@@@                  
-             @@@@@@@%%@@@@@@@%%@*-+#*%+=******++**++++#@@@@@@%##+++*+=-*@@@@@@@%@@                  
-               @@@@@@@@@@%%%@%@@%*=#==+=-*%*-:*+++++++++#--#%*-:#===*=*%@@@@@@@%@@                  
-               @%@@@@@%%%%%@@@@@@*=----===+++**+++===++++*+*****+===**@@@@@@@@@@@@@                 
-               @@%@@@@@%%%@@@@@@@*+---=====+++++++===+++++++=========*@@@@@@@@%@@@@@                
-                   @@%%@@@@@@@@*@*++-----======++=====++++=++======-*#%+@@@@%%@@@@                  
-                    %@%%@@@@@@*:%*+====+++++++++=-----=++=++++++++++*#=*@@@@@@@@                    
-                      @@@@@@@@#:=%+=======----+-------==+==========+*#-+@@@@@@@@                    
-                         @@@@@@*.#*=====------==++===++++=---======+*#-*@@@@@@@                     
-                         @@@@@@#+%*====------=========+====----====+*%%#@@@@@@                      
-                         @@@@@@@@@*=====----===========+++===-====++@@@@@@@@@@                      
-                         @@@@@@@@@@+====---=====+++=+++==+++======++@@@@@@@@@                       
-                         @@@@@@@@@@*+====--==+************+======++*@@@@@@@                         
-                             @@@@@@@*+=======-==++++++++=======++**@@@@@@@@                         
-                             @@@@@@@#*+==========++++++===++++++**@@@@@@@@@                         
-                             @@@@@@@@@#+++=======-----==++++++**#@@@@@@@@@@                         
-                               @@@@@@@#%*+++=====-======+++++*#%*@@@@@@@@                           
-                                 @@@@@#+*%*+++====+==+++++***@#**@@@#                               
-                                   @@@#***#%%*+++++++++***#%#****@@                                 
-                                    @@#*+++**##%%%%%%%%%##*****+*@@                                 
-                                    @@#*++==+++**********+++++++*#%                                 
-                              @@@@@@%**+++======+++++++++++++++++*%@                                
-                           @     @#**+++========+++++++++====++++**%@@                              
-                                  %**+++=====================++++++*#%@  @@                         
-                                  @@#*+++====================+++++**%@          @                   
-                                    @@%++++===================+++*%@@                               
-                                      @@#++++============++++++*#@@                                 
-                                         @@#***++++++++++****#@@@                                   
-                                          @@@%%%**********%%@@@                                     
-                                                  @@@@@@@                                           </pre></div>
-<div class="right">
-  <div class="uname">notnamansinha<span class="at">@</span>github <span class="sep">&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</span></div>
-  <div class="row"><span class="b">.</span><span class="k">OS:</span><span class="d"> ......................... </span><span class="v">Linux (preferred) / Windows 11</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Uptime:</span><span class="d"> ..................... </span><span class="v">~7,300 days, still building</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Host:</span><span class="d"> ........................ </span><span class="v">Ahmedabad University, EECS</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Kernel:</span><span class="d"> ..................... </span><span class="v">Systems Programmer v2.6.0-eecs</span></div>
-  <div class="row"><span class="b">.</span><span class="k">IDE:</span><span class="d"> ......................... </span><span class="v">VS Code + Cursor AI</span></div>
-  <div class="gap"></div>
-  <div class="row"><span class="b">.</span><span class="k">Languages.Programming:</span><span class="d"> ..... </span><span class="v">Python, C, C++, TypeScript, JS</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Languages.Systems:</span><span class="d"> .......... </span><span class="v">BFS, malloc, pointer arithmetic</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Languages.Frontend:</span><span class="d"> ......... </span><span class="v">React 19, Tailwind, Framer</span></div>
-  <div class="gap"></div>
-  <div class="row"><span class="b">.</span><span class="k">Projects.Shipped:</span><span class="d"> ........... </span><span class="v">naknav.in (live, Ahmedabad)</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Projects.Active:</span><span class="d"> ............ </span><span class="v">BRTS-Navigator [O(V+E)]</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Projects.Paradigm:</span><span class="d"> .......... </span><span class="v">Vibe Coding + low-level C</span></div>
-  <div class="gap"></div>
-  <div class="sh">- Contact &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</div>
-  <div class="row"><span class="b">.</span><span class="k">GitHub:</span><span class="d"> ..................... </span><span class="v">github.com/notnamansinha</span></div>
-  <div class="row"><span class="b">.</span><span class="k">LinkedIn:</span><span class="d"> ................... </span><span class="v">linkedin.com/in/notnamansinha</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Web:</span><span class="d"> ......................... </span><span class="v">naknav.in</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Email:</span><span class="d"> ....................... </span><span class="v">notnamansinha@gmail.com</span></div>
-  <div class="gap"></div>
-  <div class="sh">- GitHub Stats &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</div>
-  <div class="row"><span class="b">.</span><span class="k">Repos:</span><span class="d"> ........ 8 {Public: 8} | Stars: ........... </span><span class="v">8</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Commits:</span><span class="d"> ............... growing | Followers: ....... </span><span class="v">6</span></div>
-  <div class="row"><span class="b">.</span><span class="k">Mode:</span><span class="d"> ........................ </span><span class="v">building elegant abstractions</span></div>
-</div>
-</div>
-</div>
-</foreignObject>
+<rect width="985px" height="530px" fill="#161b22" rx="15"/>
+<text x="15" y="25" class="ascii">
+<tspan x="15" y="25">                                                      @@@@@@                                        </tspan>
+<tspan x="15" y="35.5">                                    @@@@@@   @@@@  @@@@@@@@@  @@@                                   </tspan>
+<tspan x="15" y="46">                                   @@@@@@@@  @@@@@ @@@@@@@@  @@@@@@                                 </tspan>
+<tspan x="15" y="56.5">                          @@@@@@ @@@%%@@@@@@@@@@@@@@@@@@@@@@@%@@@@@  @@@@@                          </tspan>
+<tspan x="15" y="67">                         @@@  @@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                         </tspan>
+<tspan x="15" y="77.5">                         @@@@@@@@@@%%%%%%%@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@ @@@                       </tspan>
+<tspan x="15" y="88">                         @@@@@@@@%%%%@@@@%%%@@@@@@@@@@@@@@@@@@%%@@@%%%%@@@@@@                       </tspan>
+<tspan x="15" y="98.5">                          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@%@@@@@@                       </tspan>
+<tspan x="15" y="109">                          %%@@@@@@%@%%%@@@@@@@@@@@%%%%%%%@@@@@@@@@@@@@@@@%%%@@@                     </tspan>
+<tspan x="15" y="119.5">                      @@%%%@@@@@@@@%%%@@@@@@@@@%%@@@@@@@@@%@@@@@@@@@@@@@@@@@%%@@@                   </tspan>
+<tspan x="15" y="130">                      @%%%@@@@@@@%%@@@@@@@@@@%%@@@@@@%@@@@%%%@%@@@@@@@@@@@@@@%%@@                   </tspan>
+<tspan x="15" y="140.5">                      @%%@@@@@@@@@@@@@@%%%@@@@%%%%@@@@@@@%%@%%%@@@@@@@@@@@@@@@@@                    </tspan>
+<tspan x="15" y="151">                      @%@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@%@@@@@@@@@@@@%@@%@@@@@                    </tspan>
+<tspan x="15" y="161.5">                      @@@@@@@@@@@@@@%%@@@%@@@%#@%%@@@@@@%@@@@@@@@@@@@@@%%%%@@@@@@                   </tspan>
+<tspan x="15" y="172">                     @@@@@@@@@@@@@@@%%%%@@%***++*@@@@@%@@@@@@@@@@@@@@@@%%@@@@%@@@                   </tspan>
+<tspan x="15" y="182.5">                  @@@@@@@@@@@@@@@@@@@%%%@#*++++*%@#%@@%@@@%@%%@@@@@%@@%%%@@%%@@@@                   </tspan>
+<tspan x="15" y="193">                 @@%%%%%%@@@@@@%@@@@@%%%@%%%%%+*%#***@@@@%%%%@@@@@@%@%%@@%%%@@@@@                   </tspan>
+<tspan x="15" y="203.5">             @@@@@%%@@@@@@@@@@@@@@%+@@************+++%@@@%%%@@#*****%%%@@@@@@@@@@@                  </tspan>
+<tspan x="15" y="214">             @@@@@@@%%@@@@@@@%%@*-+#*%+=******++**++++#@@@@@@%##+++*+=-*@@@@@@@%@@                  </tspan>
+<tspan x="15" y="224.5">               @@@@@@@@@@%%%@%@@%*=#==+=-*%*-:*+++++++++#--#%*-:#===*=*%@@@@@@@%@@                  </tspan>
+<tspan x="15" y="235">               @%@@@@@%%%%%@@@@@@*=----===+++**+++===++++*+*****+===**@@@@@@@@@@@@@                 </tspan>
+<tspan x="15" y="245.5">               @@%@@@@@%%%@@@@@@@*+---=====+++++++===+++++++=========*@@@@@@@@%@@@@@                </tspan>
+<tspan x="15" y="256">                   @@%%@@@@@@@@*@*++-----======++=====++++=++======-*#%+@@@@%%@@@@                  </tspan>
+<tspan x="15" y="266.5">                    %@%%@@@@@@*:%*+====+++++++++=-----=++=++++++++++*#=*@@@@@@@@                    </tspan>
+<tspan x="15" y="277">                      @@@@@@@@#:=%+=======----+-------==+==========+*#-+@@@@@@@@                    </tspan>
+<tspan x="15" y="287.5">                         @@@@@@*.#*=====------==++===++++=---======+*#-*@@@@@@@                     </tspan>
+<tspan x="15" y="298">                         @@@@@@#+%*====------=========+====----====+*%%#@@@@@@                      </tspan>
+<tspan x="15" y="308.5">                         @@@@@@@@@*=====----===========+++===-====++@@@@@@@@@@                      </tspan>
+<tspan x="15" y="319">                         @@@@@@@@@@+====---=====+++=+++==+++======++@@@@@@@@@                       </tspan>
+<tspan x="15" y="329.5">                         @@@@@@@@@@*+====--==+************+======++*@@@@@@@                         </tspan>
+<tspan x="15" y="340">                             @@@@@@@*+=======-==++++++++=======++**@@@@@@@@                         </tspan>
+<tspan x="15" y="350.5">                             @@@@@@@#*+==========++++++===++++++**@@@@@@@@@                         </tspan>
+<tspan x="15" y="361">                             @@@@@@@@@#+++=======-----==++++++**#@@@@@@@@@@                         </tspan>
+<tspan x="15" y="371.5">                               @@@@@@@#%*+++=====-======+++++*#%*@@@@@@@@                           </tspan>
+<tspan x="15" y="382">                                 @@@@@#+*%*+++====+==+++++***@#**@@@#                               </tspan>
+<tspan x="15" y="392.5">                                   @@@#***#%%*+++++++++***#%#****@@                                 </tspan>
+<tspan x="15" y="403">                                    @@#*+++**##%%%%%%%%%##*****+*@@                                 </tspan>
+<tspan x="15" y="413.5">                                    @@#*++==+++**********+++++++*#%                                 </tspan>
+<tspan x="15" y="424">                              @@@@@@%**+++======+++++++++++++++++*%@                                </tspan>
+<tspan x="15" y="434.5">                           @     @#**+++========+++++++++====++++**%@@                              </tspan>
+<tspan x="15" y="445">                                  %**+++=====================++++++*#%@  @@                         </tspan>
+<tspan x="15" y="455.5">                                  @@#*+++====================+++++**%@          @                   </tspan>
+<tspan x="15" y="466">                                    @@%++++===================+++*%@@                               </tspan>
+<tspan x="15" y="476.5">                                      @@#++++============++++++*#@@                                 </tspan>
+<tspan x="15" y="487">                                         @@#***++++++++++****#@@@                                   </tspan>
+<tspan x="15" y="497.5">                                          @@@%%%**********%%@@@                                     </tspan>
+<tspan x="15" y="508">                                                  @@@@@@@                                           </tspan>
+</text>
+<text x="390" y="30" fill="#c9d1d9">
+<tspan x="390" y="30">notnamansinha@github</tspan> -———————————————————————————————————————————-—-
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Linux (preferred) / Windows 11</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">~7,300 days, still building</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Ahmedabad University, EECS</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Systems Programmer v2.6.0-eecs</tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">VS Code, Cursor AI</tspan>
+<tspan x="390" y="150" class="cc">. </tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Python, C, C++, TypeScript, JS</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Systems</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">BFS, malloc, pointer arithmetic</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Frontend</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">React 19, Tailwind, Framer</tspan>
+<tspan x="390" y="230" class="cc">. </tspan>
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Projects</tspan>.<tspan class="key">Shipped</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">naknav.in (live, Ahmedabad)</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Projects</tspan>.<tspan class="key">Active</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">BRTS-Navigator [O(V+E)]</tspan>
+<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Projects</tspan>.<tspan class="key">Paradigm</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Vibe Coding + low-level C</tspan>
+<tspan x="390" y="330">- Contact</tspan> -——————————————————————————————————————————————-—-
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">github.com/notnamansinha</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">linkedin.com/in/notnamansinha</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Web</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">naknav.in</tspan>
+<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">notnamansinha@gmail.com</tspan>
+<tspan x="390" y="450">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">8</tspan> {<tspan class="key">Public</tspan>: <tspan class="value">8</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">8</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">210</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">6</tspan>
+<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Mode</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">building elegant abstractions</tspan>
+</text>
 </svg>
