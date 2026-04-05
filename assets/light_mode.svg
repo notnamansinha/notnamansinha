@@ -1,0 +1,100 @@
+<svg viewBox="0 0 980 430" xmlns="http://www.w3.org/2000/svg" width="980" height="430">
+<foreignObject width="980" height="430">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:980px;height:430px;overflow:hidden;background:#f6f8fa}
+.w{display:flex;width:980px;height:430px;background:#f6f8fa;font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",Courier,monospace}
+.left{width:390px;min-width:390px;padding:6px 0 6px 4px;overflow:hidden}
+.face{font-size:6.2px;line-height:1.2;white-space:pre;color:#57606a;letter-spacing:0;display:block}
+.right{flex:1;padding:12px 18px 8px 16px;border-left:1px solid #d0d7de;display:flex;flex-direction:column;gap:0;overflow:hidden}
+.uname{font-size:13px;color:#24292f;white-space:nowrap;margin-bottom:3px}
+.uname .at{color:#0969da}
+.uname .sep{color:#d0d7de}
+.row{display:flex;font-size:10px;line-height:1.6;white-space:nowrap}
+.b{color:#0969da;width:12px}
+.k{color:#0969da;flex-shrink:0}
+.d{flex:1;color:#8c959f;overflow:hidden;white-space:nowrap}
+.v{color:#24292f;flex-shrink:0;text-align:right}
+.gap{height:6px}
+.sh{font-size:10px;color:#24292f;margin:4px 0 2px 0;white-space:nowrap}
+</style>
+<div class="w">
+<div class="left"><pre class="face">                                                      @@@@@@                                        
+                                    @@@@@@   @@@@  @@@@@@@@@  @@@                                   
+                                   @@@@@@@@  @@@@@ @@@@@@@@  @@@@@@                                 
+                          @@@@@@ @@@%%@@@@@@@@@@@@@@@@@@@@@@@%@@@@@  @@@@@                          
+                         @@@  @@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                         
+                         @@@@@@@@@@%%%%%%%@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@ @@@                       
+                         @@@@@@@@%%%%@@@@%%%@@@@@@@@@@@@@@@@@@%%@@@%%%%@@@@@@                       
+                          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@%@@@@@@                       
+                          %%@@@@@@%@%%%@@@@@@@@@@@%%%%%%%@@@@@@@@@@@@@@@@%%%@@@                     
+                      @@%%%@@@@@@@@%%%@@@@@@@@@%%@@@@@@@@@%@@@@@@@@@@@@@@@@@%%@@@                   
+                      @%%%@@@@@@@%%@@@@@@@@@@%%@@@@@@%@@@@%%%@%@@@@@@@@@@@@@@%%@@                   
+                      @%%@@@@@@@@@@@@@@%%%@@@@%%%%@@@@@@@%%@%%%@@@@@@@@@@@@@@@@@                    
+                      @%@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@%@@@@@@@@@@@@%@@%@@@@@                    
+                      @@@@@@@@@@@@@@%%@@@%@@@%#@%%@@@@@@%@@@@@@@@@@@@@@%%%%@@@@@@                   
+                     @@@@@@@@@@@@@@@%%%%@@%***++*@@@@@%@@@@@@@@@@@@@@@@%%@@@@%@@@                   
+                  @@@@@@@@@@@@@@@@@@@%%%@#*++++*%@#%@@%@@@%@%%@@@@@%@@%%%@@%%@@@@                   
+                 @@%%%%%%@@@@@@%@@@@@%%%@%%%%%+*%#***@@@@%%%%@@@@@@%@%%@@%%%@@@@@                   
+             @@@@@%%@@@@@@@@@@@@@@%+@@************+++%@@@%%%@@#*****%%%@@@@@@@@@@@                  
+             @@@@@@@%%@@@@@@@%%@*-+#*%+=******++**++++#@@@@@@%##+++*+=-*@@@@@@@%@@                  
+               @@@@@@@@@@%%%@%@@%*=#==+=-*%*-:*+++++++++#--#%*-:#===*=*%@@@@@@@%@@                  
+               @%@@@@@%%%%%@@@@@@*=----===+++**+++===++++*+*****+===**@@@@@@@@@@@@@                 
+               @@%@@@@@%%%@@@@@@@*+---=====+++++++===+++++++=========*@@@@@@@@%@@@@@                
+                   @@%%@@@@@@@@*@*++-----======++=====++++=++======-*#%+@@@@%%@@@@                  
+                    %@%%@@@@@@*:%*+====+++++++++=-----=++=++++++++++*#=*@@@@@@@@                    
+                      @@@@@@@@#:=%+=======----+-------==+==========+*#-+@@@@@@@@                    
+                         @@@@@@*.#*=====------==++===++++=---======+*#-*@@@@@@@                     
+                         @@@@@@#+%*====------=========+====----====+*%%#@@@@@@                      
+                         @@@@@@@@@*=====----===========+++===-====++@@@@@@@@@@                      
+                         @@@@@@@@@@+====---=====+++=+++==+++======++@@@@@@@@@                       
+                         @@@@@@@@@@*+====--==+************+======++*@@@@@@@                         
+                             @@@@@@@*+=======-==++++++++=======++**@@@@@@@@                         
+                             @@@@@@@#*+==========++++++===++++++**@@@@@@@@@                         
+                             @@@@@@@@@#+++=======-----==++++++**#@@@@@@@@@@                         
+                               @@@@@@@#%*+++=====-======+++++*#%*@@@@@@@@                           
+                                 @@@@@#+*%*+++====+==+++++***@#**@@@#                               
+                                   @@@#***#%%*+++++++++***#%#****@@                                 
+                                    @@#*+++**##%%%%%%%%%##*****+*@@                                 
+                                    @@#*++==+++**********+++++++*#%                                 
+                              @@@@@@%**+++======+++++++++++++++++*%@                                
+                           @     @#**+++========+++++++++====++++**%@@                              
+                                  %**+++=====================++++++*#%@  @@                         
+                                  @@#*+++====================+++++**%@          @                   
+                                    @@%++++===================+++*%@@                               
+                                      @@#++++============++++++*#@@                                 
+                                         @@#***++++++++++****#@@@                                   
+                                          @@@%%%**********%%@@@                                     
+                                                  @@@@@@@                                           </pre></div>
+<div class="right">
+  <div class="uname">notnamansinha<span class="at">@</span>github <span class="sep">&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</span></div>
+  <div class="row"><span class="b">.</span><span class="k">OS:</span><span class="d"> ......................... </span><span class="v">Linux (preferred) / Windows 11</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Uptime:</span><span class="d"> ..................... </span><span class="v">~7,300 days, still building</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Host:</span><span class="d"> ........................ </span><span class="v">Ahmedabad University, EECS</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Kernel:</span><span class="d"> ..................... </span><span class="v">Systems Programmer v2.6.0-eecs</span></div>
+  <div class="row"><span class="b">.</span><span class="k">IDE:</span><span class="d"> ......................... </span><span class="v">VS Code + Cursor AI</span></div>
+  <div class="gap"></div>
+  <div class="row"><span class="b">.</span><span class="k">Languages.Programming:</span><span class="d"> ..... </span><span class="v">Python, C, C++, TypeScript, JS</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Languages.Systems:</span><span class="d"> .......... </span><span class="v">BFS, malloc, pointer arithmetic</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Languages.Frontend:</span><span class="d"> ......... </span><span class="v">React 19, Tailwind, Framer</span></div>
+  <div class="gap"></div>
+  <div class="row"><span class="b">.</span><span class="k">Projects.Shipped:</span><span class="d"> ........... </span><span class="v">naknav.in (live, Ahmedabad)</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Projects.Active:</span><span class="d"> ............ </span><span class="v">BRTS-Navigator [O(V+E)]</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Projects.Paradigm:</span><span class="d"> .......... </span><span class="v">Vibe Coding + low-level C</span></div>
+  <div class="gap"></div>
+  <div class="sh">- Contact &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</div>
+  <div class="row"><span class="b">.</span><span class="k">GitHub:</span><span class="d"> ..................... </span><span class="v">github.com/notnamansinha</span></div>
+  <div class="row"><span class="b">.</span><span class="k">LinkedIn:</span><span class="d"> ................... </span><span class="v">linkedin.com/in/notnamansinha</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Web:</span><span class="d"> ......................... </span><span class="v">naknav.in</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Email:</span><span class="d"> ....................... </span><span class="v">notnamansinha@gmail.com</span></div>
+  <div class="gap"></div>
+  <div class="sh">- GitHub Stats &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</div>
+  <div class="row"><span class="b">.</span><span class="k">Repos:</span><span class="d"> ........ 8 {Public: 8} | Stars: ........... </span><span class="v">8</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Commits:</span><span class="d"> ............... growing | Followers: ....... </span><span class="v">6</span></div>
+  <div class="row"><span class="b">.</span><span class="k">Mode:</span><span class="d"> ........................ </span><span class="v">building elegant abstractions</span></div>
+</div>
+</div>
+</div>
+</foreignObject>
+</svg>
