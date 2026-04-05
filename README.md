@@ -10,70 +10,111 @@
 
 <div align="center">
 
-<a href="https://github.com/notnamansinha">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=58A6FF&background=0D111700&center=true&vCenter=true&random=false&width=750&lines=👋+Hey,+I'm+Naman.;🧠+Debugging+memory+leaks+at+2+AM...;🚌+Optimizing+city-scale+transit+routing;⚡+Building+zero-dependency+graph+algorithms;📚+Reading+K.N.+King's+Modern+C+for+fun;💡+Vibe+coding+the+frontend,+hacking+the+backend" alt="Typing SVG" />
-</a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&repeat=true&width=750&height=50&lines=Debugging+memory+leaks+at+2+AM+%F0%9F%A7%A0;Building+zero-dependency+BFS+transit+routing+%F0%9F%9A%8C;Reading+K.N.+King%27s+Modern+C+for+fun+%F0%9F%93%96;Vibe-coding+React+19+frontends+%E2%9A%A1;Open+to+opportunities+%2B+hackathons+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░ PERSONALITY BADGES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
-![Cups of Coffee](https://img.shields.io/badge/Coffee-∞-58A6FF?style=flat-square&logo=coffeescript&logoColor=white) 
-![Debugging](https://img.shields.io/badge/Currently_Debugging-Yes-FF6E40?style=flat-square&logo=issuu&logoColor=white)
-![Night Owl](https://img.shields.io/badge/Sleep_Schedule-Deprecated-8b949e?style=flat-square&logo=moon&logoColor=white)
+![Coffee](https://img.shields.io/badge/Coffee-%E2%88%9E-58A6FF?style=flat-square&logo=coffeescript&logoColor=white)
+![Debugging](https://img.shields.io/badge/Currently%20Debugging-Yes-FF6E40?style=flat-square&logo=bug&logoColor=white)
+![Sleep](https://img.shields.io/badge/Sleep%20Schedule-Deprecated-8b949e?style=flat-square&logo=moon.svg&logoColor=white)
+![Open to Work](https://img.shields.io/badge/Open%20to-Opportunities-3DA639?style=flat-square&logo=handshake&logoColor=white)
 
 <br/>
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ LIVE PRESENCE SECTION ░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ SOCIAL BADGES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
-### 🎵 Neural BGM 
-<a href="https://open.spotify.com/user/31algq3uy2aw5kk6zphrspnayl5q">
-  <img src="https://novatorem-spotify-card.vercel.app/api/now-playing?user=31algq3uy2aw5kk6zphrspnayl5q" width="400" alt="Spotify Now Playing" /> 
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/notnamansinha)
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/notnamansinha)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:notnamansinha@gmail.com)
 
 <br/>
-<samp>Last updated: $(date +'%Y-%m-%d %H:%M:%S') IST</samp>
+
+[![Profile Views](https://komarev.com/ghpvc/?username=notnamansinha&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS)](https://github.com/notnamansinha)
+
 </div>
 
 <br/>
 
 ---
 
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░ THE HOOK ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+
 ## `〔 01 〕` The Hook
 
-I'm an EECS undergrad obsessing over the intersection of low-level systems and high-impact transit tech. While others are pulling in another dozen npm dependencies, I'm usually deep in the weeds writing pure-Python BFS routing algorithms from scratch or reading K.N. King's *C Programming* like it's a beach novel. 
+I'm an EECS undergrad obsessing over the intersection of low-level systems and high-impact transit tech. While most developers are adding their sixteenth npm dependency, I'm writing pure-Python BFS routing algorithms from scratch or reading K.N. King's *C Programming: A Modern Approach* like it's a beach novel — because it kind of is.
 
-I believe code should run close to the metal when it has to, and scale beautifully when it needs to. I vibe code modern, cinematic frontends (React 19 + Framer Motion) during the day, and dive into operating systems and pointer arithmetic at night. If it optimizes a city's bus routes or requires managing my own heap memory, I'm probably building it.
+I vibe code cinematic frontends (React 19 + Framer Motion) during the day, and wrestle with pointer arithmetic at night. If it optimizes a city's bus routes, requires manual memory management, or runs without a framework, I'm probably building it.
 
-<br/>
-
-## `〔 02 〕` Operational Status
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="240" />
 
 ```bash
-notnaman@root:~$ cat /proc/current_obsessions
-============================================
-[1] BRTS Navigator       -> Engineering zero-dependency public transit routing via pure BFS.
-[2] Janmarg-Landing      -> Vibe-coding the future of transit interfaces with React 19.
-[3] Systems Architecture -> Deep diving into C/C++ memory management and hardware interfacing.
-[4] The Meta             -> Automating this profile with GitHub Actions and CI/CD pipelines.
+notnaman@root:~$ cat /proc/self/status
+Name:     Naman Kumar Sinha
+Handle:   @notnamansinha
+Role:     EECS Undergrad
+Sleep:    SIGKILL (recurring)
+Coffee:   ∞ (see /dev/caffeine)
+Status:   Building. Always building.
 ```
 
 <br/>
 
 ---
 
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ OPERATIONAL STATUS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `〔 02 〕` Active Missions
+
+```
+notnaman@root:~$ crontab -l
+──────────────────────────────────────────────────────────────────────
+# MISSION LOG — DO NOT REMOVE UNLESS SHIPPED
+──────────────────────────────────────────────────────────────────────
+@always    ./BRTS-Navigator      # Zero-dep BFS bus routing. Pure Python.
+@always    ./Janmarg-Landing     # React 19 + Framer Motion transit frontend.
+@obsessing ./KN_King_C           # Reading the entire book. Writing every exercise.
+@nightly   ./systems-deep-dive   # C malloc, pointer arithmetic, undefined behaviour.
+@background ./vibe-code-mode     # Ship fast. Break nothing. Or at least nothing important.
+──────────────────────────────────────────────────────────────────────
+notnaman@root:~$ █
+```
+
+<br/>
+
+---
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ TECH STACK ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+
 ## `〔 03 〕` The Stack
 
 <div align="center">
 
-### ⚡ Languages
-<img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,html,css&perline=7" />
+**Languages**
 
-### 🌐 Full Stack & Frameworks
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,firebase,nodejs&perline=7" />
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)]()
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
 
-### 🛠 Tools & Telemetry
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,vercel,bash,githubactions&perline=7" />
+**Frontend & Frameworks**
+
+[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)]()
+[![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)]()
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)]()
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)]()
+
+**Tools & Infra**
+
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)]()
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)]()
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
+[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)]()
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)]()
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)]()
 
 </div>
 
@@ -81,39 +122,55 @@ notnaman@root:~$ cat /proc/current_obsessions
 
 ---
 
-## `〔 04 〕` Analytics & Telemetry
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ GITHUB ANALYTICS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `〔 04 〕` Telemetry Dashboard
+
+<div align="center">
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center">
+<td width="50%" align="center" valign="top">
 
-### 📈 GitHub Stats
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=notnamansinha&show_icons=true&theme=tokyonight&border_color=58A6FF&title_color=58A6FF&icon_color=58A6FF&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" />
+<img src="https://github-readme-stats.vercel.app/api?username=notnamansinha&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github&hide_border=false" width="100%" />
 
 </td>
-<td width="50%" valign="top" align="center">
+<td width="50%" align="center" valign="top">
 
-### 🔥 Streak Dynamics
-<img width="100%" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=notnamansinha&theme=tokyonight&border=58A6FF&stroke=58A6FF&ring=58A6FF&fire=FF6E40&currStreakLabel=58A6FF" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=notnamansinha&theme=tokyonight" width="100%" />
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=notnamansinha&layout=compact&theme=tokyonight&langs_count=8" width="60%" />
 
 </td>
 </tr>
 </table>
 
+</div>
+
+<br/>
+
+---
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ WAKATIME & ACTIVITY ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `〔 05 〕` Live Coding Logs
+
 <div align="center">
 
-### ⏱ WakaTime Telemetry
+**⏱ Weekly Coding Breakdown (WakaTime)**
 <!--START_SECTION:waka-->
-![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=notnamansinha&theme=tokyonight&layout=compact) 
 <!--END_SECTION:waka-->
 
 <br/>
 
-### 🐍 Algorithmic Traversal (Contribution Snake)
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/notnamansinha/notnamansinha/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/notnamansinha/notnamansinha/output/github-snake-dark.svg" width="100%" />
-</picture>
+**⚡ Recent Activity**
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 </div>
 
@@ -121,47 +178,93 @@ notnaman@root:~$ cat /proc/current_obsessions
 
 ---
 
-## `〔 05 〕` Live Logs
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ FEATURED PROJECTS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## `〔 06 〕` Featured Projects
 
-### ⚡ Terminal History (Recent Activity)
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<div align="center">
 
-</td>
-<td width="50%" valign="top">
+<a href="https://github.com/notnamansinha/BRTS-Navigator">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=BRTS-Navigator&theme=tokyonight&show_owner=true" />
+</a>
+<a href="https://github.com/notnamansinha/Janmarg-Navigator-Landing-Page">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=Janmarg-Navigator-Landing-Page&theme=tokyonight&show_owner=true" />
+</a>
 
-### 🧱 3D Contribution Render
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+<a href="https://github.com/notnamansinha/Bus_Track">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=Bus_Track&theme=tokyonight&show_owner=true" />
+</a>
+<a href="https://github.com/notnamansinha/KN_KING_C_Programming">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=notnamansinha&repo=KN_KING_C_Programming&theme=tokyonight&show_owner=true" />
+</a>
 
-</td>
-</tr>
-</table>
+</div>
 
 <br/>
 
 ---
 
-## `〔 06 〕` Closing Thoughts
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ TROPHIES & SNAKE ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `〔 07 〕` Achievements & Graph Traversal
 
 <div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=notnamansinha&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" />
+
+<br/><br/>
+
+**🐍 Contribution Snake — BFS Edition**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/notnamansinha/notnamansinha/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/notnamansinha/notnamansinha/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/notnamansinha/notnamansinha/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+<br/><br/>
+
+**📈 Contribution Graph**
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=notnamansinha&bg_color=1a1b27&color=58A6FF&line=58A6FF&point=FF6E40&area=true&hide_border=true" width="95%" />
+
+</div>
+
+<br/>
+
+---
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ SPOTIFY & QUOTE ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+
+## `〔 08 〕` Neural BGM & Closing Thought
+
+<div align="center">
+
+**🎵 Currently Playing**
+
+[![Spotify](https://novatorem-cyan.vercel.app/api/spotify)](https://open.spotify.com/user/31algq3uy2aw5kk6zphrspnayl5q)
+
+<br/>
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="80%" />
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/notnamansinha">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/notnamansinha">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+<samp>
+If you've read this far, you either have exceptional taste or you're a recruiter. Either way — hi! 👋
+</samp>
 
 <br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1a1b4b,100:0d1117&height=120&section=footer&animation=fadeIn" />
+[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/notnamansinha)
+[![Follow on GitHub](https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/notnamansinha)
 
 </div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ FOOTER WAVE ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1a1b4b,100:0d1117&height=120&section=footer&animation=fadeIn" />
+
+<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
+<!-- ║           Made with ❤️ by Naman Kumar Sinha · @notnamansinha           ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
