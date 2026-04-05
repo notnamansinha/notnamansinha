@@ -1,0 +1,113 @@
+<svg viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg" width="900" height="450">
+<foreignObject width="900" height="450">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<style>
+  :root{--bg:#0d1117;--g:#39ff14;--gd:#1a4d1a;--gm:#2d8a2d;--t:#c9d1d9;--sep:#21262d;--hl:#58a6ff}
+  @media(prefers-color-scheme:light){:root{--bg:#f6f8fa;--g:#0052cc;--gd:#b3ccee;--gm:#0066ff;--t:#24292f;--sep:#d0d7de;--hl:#0969da}}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:900px;height:450px;overflow:hidden;background:var(--bg)}
+  .w{display:flex;flex-direction:row;width:900px;height:450px;background:var(--bg);font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+  .left{width:340px;min-width:340px;padding:14px 6px 10px 12px;display:flex;align-items:flex-start;justify-content:flex-start;overflow:hidden}
+  .face{font-size:5.8px;line-height:1.25;white-space:pre;color:var(--g);opacity:.85;letter-spacing:0}
+  .right{flex:1;padding:14px 18px 10px 12px;display:flex;flex-direction:column;gap:0;overflow:hidden;border-left:1px solid var(--sep)}
+  .uname{font-size:12.5px;font-weight:700;color:var(--g);letter-spacing:.05em;margin-bottom:3px}
+  .uname .at{color:var(--gm)}
+  .rule{height:1px;background:var(--sep);margin:4px 0 6px 0}
+  .row{display:flex;font-size:10px;line-height:1.55;color:var(--t)}
+  .key{color:var(--hl);min-width:165px;display:flex;justify-content:space-between}
+  .key .dots{color:var(--gd);flex:1;margin:0 4px;overflow:hidden;white-space:nowrap}
+  .val{color:var(--t)}
+  .sh{font-size:10px;color:var(--g);margin:7px 0 3px 0;letter-spacing:.08em;font-weight:600}
+  .colors{display:flex;gap:3px;margin-top:8px}
+  .c{width:16px;height:16px;border-radius:2px}
+</style>
+<div class="w">
+<div class="left">
+<pre class="face">                      @@@@@@
+        @@@@@@  @@@@  @@@@@@@@  @@@
+       @@@@@@@@  @@@@@ @@@@@@@  @@@@@@
+ @@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@%@@@@@  @@@@@
+@@@  @@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@%%%%%%%@@@@@@@@@@@@@@@@%%%%@@@@@@@
+@@@@@@@@%%%%@@@@%%%@@@@@@@@@@@@@@@@@%%@@@%%%
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@
+ %%@@@@@@%@%%%@@@@@@@@@@@%%%%%%%@@@@@@@@@@%%%
+@@%%%@@@@@@@%%%@@@@@@@@@%%@@@@@@@@@%@@@@@@@%%
+@%%%@@@@@@@%%@@@@@@@@@@%%@@@@@@%@@@@%%%@%@@@
+@%%@@@@@@@@@@@@@@%%%@@@@%%%%@@@@@@@%%@%%%@@@
+@%@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@%%@@@%@@@%@@@@@@%@@@@@@@@%%%
+@@@@@@@@@@@@@@@%%%%@@%***++*@@@@@%@@@@@@@@@@
+@@@@@@@@@@@@@@@@@%%%@#*++++*%@#%@@%@@@@@@@@@
+%%%%%@@@@@@@@@@@%%%@%%%%%+*%#***@@@@%%%%@@@@
+@@@@@@@@@@@@@%+@@#***********++%@@@%%%@@#+++
+@@@@@%%@@@@@@%@+=++++***++**+++*#@@@@@@%##++
+  @@@@@@@@%%%@@@%*-+==+++++++++*#-=#%*--#+=*
+  @%@@@@@%%%%%@@@@*-----===+++*===++++**+===
+  @@%@@@@@%%%@@@@@+---=====+++++++++++====*@
+      @@%%@@@@@%@**-----======++=====+++*#@@
+       %@%%@@@@%:%*====+++++++===---=++++*#=
+         @@@@@@%#=%+=======----+-------++=+*
+            @@@@@*.#*=====------==+++===+*+*
+            @@@@@@#+%*====------=========*%%
+            @@@@@@@@*=====----===========+@@
+            @@@@@@@@@+====---=====+++=+++@@@
+            @@@@@@@@@*+====--==+*********@@@
+                @@@@@@@@*+=========++++++**@
+                @@@@@@@#%*+++=====-=++++++*#
+                  @@@@@#+*%*+++====++++**@@#
+                    @@#***#%%*+++++**#%#*+++
+                     @@#*+++**##%%%%%##*++++
+                     @@#*++==+++**++++++++++
+               @@@@@@%**+++======+++++++++++
+            @     @#**+++========+++++++++++
+                   %**+++==============+++++
+                   @@#*+++===========++++++*
+                     @@%++++==========+++***
+                       @@#++++======++++++#@
+                          @@#***++++****#@@@
+                           @@@%%%*****%%@@@@
+                                @@@@@@@</pre>
+</div>
+<div class="right">
+  <div class="uname">notnamansinha<span class="at">@</span>github</div>
+  <div class="rule"></div>
+  <div class="row"><span class="key">OS<span class="dots">.........................</span></span><span class="val">Linux (preferred) / Windows 11</span></div>
+  <div class="row"><span class="key">Uptime<span class="dots">.....................</span></span><span class="val">~7,300 days, still building</span></div>
+  <div class="row"><span class="key">Host<span class="dots">.........................</span></span><span class="val">Ahmedabad University, EECS</span></div>
+  <div class="row"><span class="key">Kernel<span class="dots">.....................</span></span><span class="val">Systems Programmer v2.6.0-eecs</span></div>
+  <div class="row"><span class="key">IDE<span class="dots">...........................</span></span><span class="val">VS Code + AI co-pilot</span></div>
+  <div class="rule"></div>
+  <div class="row"><span class="key">Languages.Programming<span class="dots">.......</span></span><span class="val">Python, C, C++, TypeScript</span></div>
+  <div class="row"><span class="key">Languages.Systems<span class="dots">...........</span></span><span class="val">BFS, malloc, pointer arithmetic</span></div>
+  <div class="row"><span class="key">Languages.Frontend<span class="dots">..........</span></span><span class="val">React 19, Tailwind, Framer</span></div>
+  <div class="rule"></div>
+  <div class="row"><span class="key">Projects.Routing<span class="dots">.............</span></span><span class="val">BRTS-Navigator [O(V+E)]</span></div>
+  <div class="row"><span class="key">Projects.Shipped<span class="dots">.............</span></span><span class="val">naknav.in (live in Ahmedabad)</span></div>
+  <div class="row"><span class="key">Projects.Reading<span class="dots">.............</span></span><span class="val">K.N. King's C Programming</span></div>
+  <div class="row"><span class="key">Projects.Paradigm<span class="dots">...........</span></span><span class="val">Vibe Coding (AI-orchestrated)</span></div>
+  <div class="rule"></div>
+  <div class="sh">&#8212; Contact &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</div>
+  <div class="row"><span class="key">GitHub<span class="dots">.....................</span></span><span class="val">github.com/notnamansinha</span></div>
+  <div class="row"><span class="key">LinkedIn<span class="dots">...................</span></span><span class="val">linkedin.com/in/notnamansinha</span></div>
+  <div class="row"><span class="key">Web<span class="dots">.........................</span></span><span class="val">naknav.in</span></div>
+  <div class="rule"></div>
+  <div class="sh">&#8212; GitHub Stats &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</div>
+  <div class="row"><span class="key">Repos<span class="dots">...................</span></span><span class="val">8 public | Stars: 8</span></div>
+  <div class="row"><span class="key">Followers<span class="dots">...............</span></span><span class="val">6 | Commits: growing</span></div>
+  <div class="row"><span class="key">Mode<span class="dots">....................</span></span><span class="val">building elegant abstractions</span></div>
+  <div class="colors">
+    <div class="c" style="background:#ff5f57"></div>
+    <div class="c" style="background:#febc2e"></div>
+    <div class="c" style="background:#28c840"></div>
+    <div class="c" style="background:#39ff14"></div>
+    <div class="c" style="background:#0052cc"></div>
+    <div class="c" style="background:#58a6ff"></div>
+    <div class="c" style="background:#c9d1d9"></div>
+    <div class="c" style="background:#21262d"></div>
+  </div>
+</div>
+</div>
+</div>
+</foreignObject>
+</svg>
