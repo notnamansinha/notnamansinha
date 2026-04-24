@@ -1,6 +1,6 @@
 <a href="https://github.com/notnamansinha/notnamansinha">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/dark_mode.svg?v=58">
-    <img alt="Naman Sinha's GitHub Profile README" src="assets/light_mode.svg?v=58">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/dark_mode.svg?v=59">
+    <img alt="Naman Sinha's GitHub Profile README" src="assets/light_mode.svg?v=59">
   </picture>
 </a>
