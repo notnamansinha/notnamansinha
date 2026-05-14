@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="700px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1150px" height="730px" font-size="16px">
 <style>
 @font-face {
 src: local('Consolas'), local('Consolas Bold');
@@ -16,7 +16,7 @@ size-adjust: 109%;
 .ascii {fill: #8b949e; font-size: 11.5px; font-weight: bold;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="985px" height="700px" fill="#161b22" rx="15"/>
+<rect width="1150px" height="730px" fill="#161b22" rx="15"/>
 <text x="0" y="25" class="ascii">
 <tspan x="0" y="30.0">                             '...} .:</tspan>
 <tspan x="0" y="43.0">                       ' . .'`" .. '; `..`</tspan>
@@ -69,10 +69,10 @@ text, tspan {white-space: pre;}
 <tspan x="430" y="210" class="cc">────────────────────────────────────────────────────</tspan>
 <tspan x="430" y="230" font-weight="bold">what i'm building</tspan>
 <tspan x="430" y="250" class="value">naknav.in — live, Ahmedabad</tspan>
-<tspan x="430" y="270" class="cc" font-size="13px">navigation tool deployed and used in the real world. not a portfolio piece.</tspan>
+<tspan x="430" y="270" class="cc" font-size="14px">navigation tool deployed and used in the real world. not a portfolio piece.</tspan>
 <tspan x="430" y="300" class="value">BRTS-Navigator</tspan>
-<tspan x="430" y="320" class="cc" font-size="13px">graph-based route planner for Ahmedabad's BRTS network.</tspan>
-<tspan x="430" y="340" class="cc" font-size="13px">shortest-path over real stops, real routes — O(V+E) on GTFS data.</tspan>
+<tspan x="430" y="320" class="cc" font-size="14px">graph-based route planner for Ahmedabad's BRTS network.</tspan>
+<tspan x="430" y="340" class="cc" font-size="14px">shortest-path over real stops, real routes — O(V+E) on GTFS data.</tspan>
 <tspan x="430" y="370" class="cc">────────────────────────────────────────────────────</tspan>
 <tspan x="430" y="390" font-weight="bold">skills (honest edition)</tspan>
 <tspan x="430" y="410" class="key">area              </tspan><tspan class="key">actually use</tspan>
