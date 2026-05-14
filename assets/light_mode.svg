@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="880px" height="880px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="880px" height="650px" font-size="16px">
 <style>
 @font-face {
 src: local('Consolas'), local('Consolas Bold');
@@ -17,7 +17,7 @@ size-adjust: 109%;
 .ascii {fill: #57606a; font-size: 11.5px; font-weight: bold;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="880px" height="880px" fill="#f6f8fa" rx="15"/>
+<rect width="880px" height="650px" fill="#f6f8fa" rx="15"/>
 <text x="0" y="25" class="ascii">
 <tspan x="0" y="30.0">                             '...} .:</tspan>
 <tspan x="0" y="43.0">                       ' . .'`" .. '; `..`</tspan>
@@ -81,23 +81,12 @@ text, tspan {white-space: pre;}
 <tspan x="430" y="430" class="cc" font-size="13px">shortest-path over real stops, real</tspan>
 <tspan x="430" y="445" class="cc" font-size="13px">routes — O(V+E) on GTFS data.</tspan>
 <tspan x="430" y="475" class="sep">──────────────────────────────────────────</tspan>
-<tspan x="430" y="495" font-weight="bold">skills (honest edition)</tspan>
-<tspan x="430" y="515" class="key">area              </tspan><tspan class="key">actually use</tspan>
-<tspan x="430" y="535" class="key">systems           </tspan><tspan class="value">memory management, graph</tspan>
-<tspan x="430" y="555" class="value">                  algorithms, CLI tooling</tspan>
-<tspan x="430" y="575" class="key">backend/devops    </tspan><tspan class="value">REST APIs, Firebase, Git,</tspan>
-<tspan x="430" y="595" class="value">                  Linux, Windows</tspan>
-<tspan x="430" y="615" class="key">domain knowledge  </tspan><tspan class="value">real-time transit tracking,</tspan>
-<tspan x="430" y="635" class="value">                  market data pipelines</tspan>
-<tspan x="430" y="665" class="cc" font-style="italic" font-size="14px">C/C++ means I've debugged segfaults</tspan>
-<tspan x="430" y="680" class="cc" font-style="italic" font-size="14px">at 2am. That counts.</tspan>
-<tspan x="430" y="710" class="sep">──────────────────────────────────────────</tspan>
-<tspan x="430" y="730" font-weight="bold">numbers that mean something</tspan>
-<tspan x="430" y="750" class="key">commits       </tspan><tspan class="cc">: </tspan><tspan class="value"><tspan id="commit_data">550</tspan> (not padded)</tspan>
-<tspan x="430" y="770" class="key">lines written </tspan><tspan class="cc">: </tspan><tspan class="addColor" id="loc_add">1,748,524</tspan>
-<tspan x="430" y="790" class="cc">                (deleted </tspan><tspan class="delColor" id="loc_del">132,626</tspan><tspan class="cc"> — refactor)</tspan>
-<tspan x="430" y="810" class="key">repos         </tspan><tspan class="cc">: </tspan><tspan class="value"><tspan id="repo_data">12</tspan> own + <tspan id="contrib_data">17</tspan> contribs</tspan>
-<tspan x="430" y="830" class="key">shipped       </tspan><tspan class="cc">: </tspan><tspan class="value">1 live product</tspan>
-<tspan x="430" y="850" class="cc">                (the one that matters)</tspan>
+<tspan x="430" y="495" font-weight="bold">numbers that mean something</tspan>
+<tspan x="430" y="515" class="key">commits       </tspan><tspan class="cc">: </tspan><tspan class="value"><tspan id="commit_data">545</tspan> (not padded)</tspan>
+<tspan x="430" y="535" class="key">lines written </tspan><tspan class="cc">: </tspan><tspan class="addColor" id="loc_add">261,143</tspan>
+<tspan x="430" y="555" class="cc">                (deleted </tspan><tspan class="delColor" id="loc_del">132,490</tspan><tspan class="cc"> — refactor)</tspan>
+<tspan x="430" y="575" class="key">repos         </tspan><tspan class="cc">: </tspan><tspan class="value"><tspan id="repo_data">11</tspan> own + <tspan id="contrib_data">16</tspan> contribs</tspan>
+<tspan x="430" y="595" class="key">shipped       </tspan><tspan class="cc">: </tspan><tspan class="value">1 live product</tspan>
+<tspan x="430" y="615" class="cc">                (the one that matters)</tspan>
 </text>
 </svg>
