@@ -9,7 +9,13 @@ import hashlib
 
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ.get('USER_NAME') or 'notnamansinha'
+# Repositories to exclude from the LOC and commit counts (case-insensitive)
+# e.g., IGNORED_REPOS = ['notnamansinha/DataSync', 'some-org/huge-repo']
+IGNORED_REPOS = [
+    'notnamansinha/ahmedabad-multimodal-transit'
+]
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+
 
 
 def format_plural(unit):
@@ -160,13 +166,15 @@ def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, additio
     else: return recursive_loc(owner, repo_name, data, cache_comment, addition_total, deletion_total, my_commits, history['pageInfo']['endCursor'])
 
 
-def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None, edges=[]):
+def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None, edges=None):
     """
     Uses GitHub's GraphQL v4 API to query all the repositories I have access to (with respect to owner_affiliation)
     Queries 60 repos at a time, because larger queries give a 502 timeout error and smaller queries send too many
     requests and also give a 502 error.
     Returns the total number of lines of code in all repositories
     """
+    if edges is None:
+        edges = []
     query_count('loc_query')
     query = '''
     query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String) {
@@ -201,67 +209,119 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
         edges += request.json()['data']['user']['repositories']['edges']
         return loc_query(owner_affiliation, comment_size, force_cache, request.json()['data']['user']['repositories']['pageInfo']['endCursor'], edges)
     else:
-        return cache_builder(edges + request.json()['data']['user']['repositories']['edges'], comment_size, force_cache)
+        all_edges = edges + request.json()['data']['user']['repositories']['edges']
+        # Filter out ignored repositories (case-insensitive)
+        ignored_set = {repo.lower() for repo in IGNORED_REPOS}
+        filtered_edges = [
+            edge for edge in all_edges 
+            if edge['node']['nameWithOwner'].lower() not in ignored_set
+        ]
+        return cache_builder(filtered_edges, comment_size, force_cache)
 
 
 def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
     """
-    Checks each repository in edges to see if it has been updated since the last time it was cached
-    If it has, run recursive_loc on that repository to update the LOC count
+    Checks each repository in edges to see if it has been updated since the last time it was cached.
+    If it has, runs recursive_loc on that repository to update the LOC count.
+    Robustly handles order changes, additions, and deletions in the repository list.
     """
     cached = True
-    filename = 'cache/'+hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest()+'.txt'
+    filename = 'cache/' + hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest() + '.txt'
+    
+    # Read existing cache data if it exists
     try:
         with open(filename, 'r') as f:
-            data = f.readlines()
+            existing_lines = f.readlines()
     except FileNotFoundError:
-        data = []
+        existing_lines = []
         if comment_size > 0:
-            for _ in range(comment_size): data.append('This line is a comment block. Write whatever you want here.\n')
-        with open(filename, 'w') as f:
-            f.writelines(data)
+            for _ in range(comment_size):
+                existing_lines.append('This line is a comment block. Write whatever you want here.\n')
+            with open(filename, 'w') as f:
+                f.writelines(existing_lines)
 
-    if len(data)-comment_size != len(edges) or force_cache:
+    cache_comment = existing_lines[:comment_size]
+    cache_data_lines = existing_lines[comment_size:]
+
+    # Parse existing cache into a dictionary for fast lookup by repo hash
+    cache_dict = {}
+    for line in cache_data_lines:
+        parts = line.split()
+        if len(parts) >= 5:
+            repo_hash, commit_count, my_commits, loc_add_val, loc_del_val = parts[:5]
+            cache_dict[repo_hash] = {
+                'commit_count': int(commit_count),
+                'my_commits': int(my_commits),
+                'loc_add': int(loc_add_val),
+                'loc_del': int(loc_del_val)
+            }
+
+    # If force_cache is True or number of items is different, mark cached as False
+    if force_cache or len(cache_data_lines) != len(edges):
         cached = False
-        flush_cache(edges, filename, comment_size)
-        with open(filename, 'r') as f:
-            data = f.readlines()
 
-    cache_comment = data[:comment_size]
-    data = data[comment_size:]
-    for index in range(len(edges)):
-        repo_hash, commit_count, *__ = data[index].split()
-        if repo_hash == hashlib.sha256(edges[index]['node']['nameWithOwner'].encode('utf-8')).hexdigest():
-            try:
-                if int(commit_count) != edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']:
-                    owner, repo_name = edges[index]['node']['nameWithOwner'].split('/')
-                    loc = recursive_loc(owner, repo_name, data, cache_comment)
-                    data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
-            except TypeError:
-                data[index] = repo_hash + ' 0 0 0 0\n'
+    new_data_lines = []
+    # For error recovery, we need to pass a valid list of lines to recursive_loc
+    # We will construct a dummy data list that is updated as we go
+    current_data_state = [''] * len(edges)
+
+    for index, edge in enumerate(edges):
+        repo_name = edge['node']['nameWithOwner']
+        repo_hash = hashlib.sha256(repo_name.encode('utf-8')).hexdigest()
+
+        try:
+            current_commit_count = edge['node']['defaultBranchRef']['target']['history']['totalCount']
+        except (TypeError, KeyError):
+            current_commit_count = 0
+
+        # Check if we can reuse the cached data
+        if repo_hash in cache_dict and cache_dict[repo_hash]['commit_count'] == current_commit_count and not force_cache:
+            entry = cache_dict[repo_hash]
+            new_line = f"{repo_hash} {current_commit_count} {entry['my_commits']} {entry['loc_add']} {entry['loc_del']}\n"
+        else:
+            cached = False
+            if current_commit_count > 0:
+                owner, repo_name_only = repo_name.split('/')
+                # Get the LOC count via recursive GraphQL queries
+                loc = recursive_loc(owner, repo_name_only, current_data_state, cache_comment)
+                # loc is (addition_total, deletion_total, my_commits)
+                new_line = f"{repo_hash} {current_commit_count} {loc[2]} {loc[0]} {loc[1]}\n"
+            else:
+                new_line = f"{repo_hash} 0 0 0 0\n"
+
+        new_data_lines.append(new_line)
+        current_data_state[index] = new_line
+
+    # Write the updated cache back to the file
     with open(filename, 'w') as f:
         f.writelines(cache_comment)
-        f.writelines(data)
-    for line in data:
+        f.writelines(new_data_lines)
+
+    # Calculate totals and print the beautiful breakdown
+    breakdown = []
+    for index, line in enumerate(new_data_lines):
         loc = line.split()
         loc_add += int(loc[3])
         loc_del += int(loc[4])
+        
+        my_commits = int(loc[2])
+        additions = int(loc[3])
+        deletions = int(loc[4])
+        repo_name = edges[index]['node']['nameWithOwner']
+        breakdown.append((repo_name, my_commits, additions, deletions))
+
+    # Sort breakdown by additions descending to show the biggest contributors first
+    breakdown.sort(key=lambda x: x[2], reverse=True)
+    
+    print('\n' + '=' * 80)
+    print(f"{'Repository':<42} | {'Commits':<7} | {'Lines Added':<11} | {'Lines Deleted':<13}")
+    print('=' * 80)
+    for repo_name, my_commits, additions, deletions in breakdown:
+        print(f"{repo_name:<42} | {my_commits:<7} | {additions:<11,} | {deletions:<13,}")
+    print('=' * 80 + '\n')
+
     return [loc_add, loc_del, loc_add - loc_del, cached]
 
-
-def flush_cache(edges, filename, comment_size):
-    """
-    Wipes the cache file
-    This is called when the number of repositories changes or when the file is first created
-    """
-    with open(filename, 'r') as f:
-        data = []
-        if comment_size > 0:
-            data = f.readlines()[:comment_size]
-    with open(filename, 'w') as f:
-        f.writelines(data)
-        for node in edges:
-            f.write(hashlib.sha256(node['node']['nameWithOwner'].encode('utf-8')).hexdigest() + ' 0 0 0 0\n')
 
 
 def force_close_file(data, cache_comment):
