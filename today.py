@@ -349,14 +349,15 @@ def svg_overwrite(filename, commit_data, star_data, repo_data, contrib_data, fol
     root = tree.getroot()
     
     # Justify stats
-    justify_format(root, 'commit_data', commit_data, 21)
-    justify_format(root, 'star_data', star_data, 9)
+    commit_data = f"{fetch_commits(USER_NAME):,}"
+    find_and_replace(root, 'commit_data', commit_data)
+    find_and_replace(root, "commit_data_dots", " " * max(0, 21 - len(commit_data)))
     
-    # Repos and contrib are grouped, so we can just pad repo_data and leave contrib alone.
-    repo_text = f"{repo_data} {{Contributed: {contrib_data}}}"
-    justify_format(root, 'repo_data', repo_data, 0)
-    justify_format(root, 'contrib_data', contrib_data, 0)
-    find_and_replace(root, "repo_data_dots", " " + "." * max(0, 21 - len(repo_text)) + " ")
+    repo_data = fetch_repos(USER_NAME)
+    find_and_replace(root, 'repo_data', str(repo_data[0]))
+    find_and_replace(root, 'contrib_data', str(repo_data[1]))
+    repo_text = f"{repo_data[0]} {{Contributed: {repo_data[1]}}}"
+    find_and_replace(root, "repo_data_dots", " " * max(0, 23 - len(repo_text)))
     
     justify_format(root, 'follower_data', follower_data, 9)
     
@@ -373,10 +374,10 @@ def justify_format(root, element_id, new_text, length=0):
     find_and_replace(root, element_id, new_text)
     just_len = max(0, length - len(new_text))
     if just_len <= 2:
-        dot_map = {0: '', 1: ' ', 2: '. '}
+        dot_map = {0: '', 1: ' ', 2: '  '}
         dot_string = dot_map[just_len]
     else:
-        dot_string = ' ' + ('.' * just_len) + ' '
+        dot_string = ' ' * (just_len + 2)
     find_and_replace(root, f"{element_id}_dots", dot_string)
 
 
