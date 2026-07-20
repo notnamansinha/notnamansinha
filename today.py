@@ -210,13 +210,7 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
         return loc_query(owner_affiliation, comment_size, force_cache, request.json()['data']['user']['repositories']['pageInfo']['endCursor'], edges)
     else:
         all_edges = edges + request.json()['data']['user']['repositories']['edges']
-        # Filter out ignored repositories (case-insensitive)
-        ignored_set = {repo.lower() for repo in IGNORED_REPOS}
-        filtered_edges = [
-            edge for edge in all_edges 
-            if edge['node']['nameWithOwner'].lower() not in ignored_set
-        ]
-        return cache_builder(filtered_edges, comment_size, force_cache)
+        return cache_builder(all_edges, comment_size, force_cache)
 
 
 def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
@@ -299,15 +293,19 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
 
     # Calculate totals and print the beautiful breakdown
     breakdown = []
+    ignored_set = {repo.lower() for repo in IGNORED_REPOS}
     for index, line in enumerate(new_data_lines):
         loc = line.split()
-        loc_add += int(loc[3])
-        loc_del += int(loc[4])
-        
         my_commits = int(loc[2])
         additions = int(loc[3])
         deletions = int(loc[4])
         repo_name = edges[index]['node']['nameWithOwner']
+        
+        # Exclude repos with inflated LOC stats or specifically ignored repos from the lines of code count
+        if repo_name.lower() not in ignored_set and additions < 50000:
+            loc_add += additions
+            loc_del += deletions
+            
         breakdown.append((repo_name, my_commits, additions, deletions))
 
     # Sort breakdown by additions descending to show the biggest contributors first
@@ -349,13 +347,19 @@ def svg_overwrite(filename, commit_data, star_data, repo_data, contrib_data, fol
     """
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, 'commit_data', commit_data, 0)
-    justify_format(root, 'star_data', star_data, 0)
+    
+    # Justify stats
+    justify_format(root, 'commit_data', commit_data, 21)
+    justify_format(root, 'star_data', star_data, 9)
+    
+    # Repos and contrib are grouped, so we can just pad repo_data and leave contrib alone.
+    repo_text = f"{repo_data} {{Contributed: {contrib_data}}}"
     justify_format(root, 'repo_data', repo_data, 0)
     justify_format(root, 'contrib_data', contrib_data, 0)
-    justify_format(root, 'follower_data', follower_data, 0)
-    justify_format(root, 'loc_add', loc_data[0], 0)
-    justify_format(root, 'loc_del', loc_data[1], 0)
+    find_and_replace(root, "repo_data_dots", " " + "." * max(0, 21 - len(repo_text)) + " ")
+    
+    justify_format(root, 'follower_data', follower_data, 9)
+    
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 
