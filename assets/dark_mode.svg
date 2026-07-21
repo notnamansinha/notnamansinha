@@ -66,7 +66,7 @@ text, tspan {white-space: pre;}
 <tspan x="425" y="200" class="key">Languages:     </tspan><tspan class="cc">..... </tspan><tspan class="value">Python, C, C++, TypeScript, JS</tspan>
 <tspan x="425" y="230" class="key">Tools:         </tspan><tspan class="cc">....... </tspan><tspan class="value">HTML, CSS, JSON, LaTeX, YAML</tspan>
 <tspan x="425" y="260" class="key">Edge Stack:    </tspan><tspan class="cc">......... </tspan><tspan class="value">TensorRT, CUDA, DeepStream</tspan>
-<tspan x="425" y="290" class="key">LLMs:          </tspan><tspan class="cc"></tspan><tspan class="value">Claude 4.5, GPT-5.6, Llama 4, Kimik3</tspan>
+<tspan x="425" y="290" class="key">LLMs:          </tspan><tspan class="cc"/><tspan class="value">Claude 4.5, GPT-5.6, Llama 4, Kimik3</tspan>
 
 <tspan x="425" y="330" class="cc">- Contact ─────────────────────────────────────────</tspan>
 <tspan x="425" y="365" class="key">Email:   </tspan><tspan class="cc">.................. </tspan><tspan class="value">notnamansinha@gmail.com</tspan>
@@ -74,7 +74,7 @@ text, tspan {white-space: pre;}
 <tspan x="425" y="425" class="key">LinkedIn:</tspan><tspan class="cc">............................ </tspan><tspan class="value">notnamansinha</tspan>
 
 <tspan x="425" y="465" class="cc">- GitHub Stats ────────────────────────────────────</tspan>
-<tspan x="425" y="500" class="key">Repos:   </tspan><tspan class="cc" id="repo_data_dots">... </tspan><tspan class="value"><tspan id="repo_data">15</tspan> {Contributed: <tspan id="contrib_data">22</tspan>}</tspan> <tspan class="cc">|</tspan> <tspan class="key">Stars:     </tspan><tspan class="cc" id="star_data_dots">.. </tspan><tspan class="value" id="star_data">10</tspan>
-<tspan x="425" y="530" class="key">Commits: </tspan><tspan class="cc" id="commit_data_dots">................. </tspan><tspan class="value" id="commit_data">1,014</tspan> <tspan class="cc">|</tspan> <tspan class="key">Followers: </tspan><tspan class="cc" id="follower_data_dots">.. </tspan><tspan class="value" id="follower_data">10</tspan>
+<tspan x="425" y="500" class="key">Repos:   </tspan><tspan class="cc" id="repo_data_dots">... </tspan><tspan class="value"><tspan id="repo_data">15</tspan> {Contributed: <tspan id="contrib_data">22</tspan>}</tspan> <tspan class="cc">|</tspan> <tspan class="key">Stars:     </tspan><tspan class="cc" id="star_data_dots">... </tspan><tspan class="value" id="star_data">4</tspan>
+<tspan x="425" y="530" class="key">Commits: </tspan><tspan class="cc" id="commit_data_dots">.................. </tspan><tspan class="value" id="commit_data">1,074</tspan> <tspan class="cc">|</tspan> <tspan class="key">Followers: </tspan><tspan class="cc" id="follower_data_dots">.. </tspan><tspan class="value" id="follower_data">12</tspan>
 </text>
 </svg>
