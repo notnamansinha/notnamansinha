@@ -349,14 +349,13 @@ def svg_overwrite(filename, commit_data, star_data, repo_data, contrib_data, fol
     root = tree.getroot()
     
     # Justify stats
-    commit_data = f"{fetch_commits(USER_NAME):,}"
+    commit_data = f"{commit_data:,}" if isinstance(commit_data, int) else str(commit_data)
     find_and_replace(root, 'commit_data', commit_data)
     find_and_replace(root, "commit_data_dots", "." * max(0, 24 - 1 - len(commit_data)) + " ")
     
-    repo_data = fetch_repos(USER_NAME)
-    find_and_replace(root, 'repo_data', str(repo_data[0]))
-    find_and_replace(root, 'contrib_data', str(repo_data[1]))
-    repo_text = f"{repo_data[0]} {{Contributed: {repo_data[1]}}}"
+    find_and_replace(root, 'repo_data', str(repo_data))
+    find_and_replace(root, 'contrib_data', str(contrib_data))
+    repo_text = f"{repo_data} {{Contributed: {contrib_data}}}"
     find_and_replace(root, "repo_data_dots", "." * max(0, 24 - 1 - len(repo_text)) + " ")
     
     justify_format(root, 'follower_data', follower_data, 5)
