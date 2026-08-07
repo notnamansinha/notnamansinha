@@ -7,7 +7,22 @@ from lxml import etree
 import time
 import hashlib
 
-HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
+# Load .env file if running locally
+if os.path.exists('.env'):
+    with open('.env') as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith('#') and '=' in line:
+                key, val = line.split('=', 1)
+                os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+access_token = os.environ.get('ACCESS_TOKEN', '').strip()
+if not access_token:
+    token_prefix = 'token '
+else:
+    token_prefix = 'Bearer ' if access_token.startswith('github_pat_') else 'token '
+
+HEADERS = {'authorization': token_prefix + access_token}
 USER_NAME = os.environ.get('USER_NAME') or 'notnamansinha'
 # Repositories to exclude from the LOC and commit counts (case-insensitive)
 # e.g., IGNORED_REPOS = ['notnamansinha/DataSync', 'some-org/huge-repo']
@@ -34,6 +49,11 @@ def simple_request(func_name, query, variables):
     """
     Returns a request, or raises an Exception if the response does not succeed.
     """
+    if not os.environ.get('ACCESS_TOKEN'):
+        raise Exception(
+            f"{func_name} failed: ACCESS_TOKEN environment variable is missing or empty. "
+            "Please set the ACCESS_TOKEN environment variable/repository secret."
+        )
     request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
     if request.status_code == 200:
         data = request.json()
@@ -42,6 +62,13 @@ def simple_request(func_name, query, variables):
         if data.get('data') is None:
             raise Exception(func_name, ' returned null data. Check token scopes (needs classic token with repo + read:user):', request.text, QUERY_COUNT)
         return request
+    if request.status_code == 401:
+        raise Exception(
+            f"{func_name} failed with 401 Bad Credentials. "
+            "Your ACCESS_TOKEN repository secret is invalid, expired, or revoked. "
+            "Please generate a new Personal Access Token with 'repo' and 'read:user' scopes "
+            "and update the ACCESS_TOKEN secret in Repository Settings -> Secrets and variables -> Actions."
+        )
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
 
 
