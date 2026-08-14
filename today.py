@@ -566,6 +566,8 @@ if __name__ == '__main__':
 
     svg_overwrite('assets/dark_mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], pr_data, issue_data, fork_data)
     svg_overwrite('assets/light_mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], pr_data, issue_data, fork_data)
+    svg_overwrite('assets/profile_dark.svg', commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], pr_data, issue_data, fork_data)
+    svg_overwrite('assets/profile_light.svg', commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], pr_data, issue_data, fork_data)
 
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
         '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + loc_time + commit_time + star_time + fork_time + repo_time + contrib_time + pr_issue_time)),

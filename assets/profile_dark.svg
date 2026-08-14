@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="880px" height="550px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 100%;
+size-adjust: 100%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.cc {fill: #616e7f;}
+.ascii {fill: #8b949e; font-size: 11.5px; font-weight: bold;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="880px" height="550px" fill="#161b22" rx="15"/>
+<text x="0" y="25" class="ascii">
+<tspan x="0" y="30.0">                             '...} .:</tspan>
+<tspan x="0" y="43.0">                       ' . .'`" .. '; `..`</tspan>
+<tspan x="0" y="56.0">          [``'`I`'&gt;!!i! .. .         !iI `  '..l</tspan>
+<tspan x="0" y="69.0">         ' ...^. i!!i''           .l!!^    .x   .</tspan>
+<tspan x="0" y="82.0">         ..'  :!!!!;I!!"             .!;   ... l</tspan>
+<tspan x="0" y="95.0">         '..                           `!   .l  '</tspan>
+<tspan x="0" y="108.0">         _~.   IlIll.        lIlll;     .     "lllI'</tspan>
+<tspan x="0" y="121.0">      ..IiI     ;!!:      !i^  ..  !! ;;         ^i,.&lt;</tspan>
+<tspan x="0" y="134.0">      ';i          .l!: `l!!!,  ^;'l,i!;          .^'I</tspan>
+<tspan x="0" y="147.0">      'I: .`         ,!`          .!^ `"      , "</tspan>
+<tspan x="0" y="160.0">      l:    .l;  .!; !!.'[&gt;&gt;_     ;           ii!  .'-</tspan>
+<tspan x="0" y="173.0">    ..  .`       .!!i`!/fjr),, "!  !`". ,;l. "!``:l`.&lt;</tspan>
+<tspan x="0" y="186.0">   .^!iii    :'   ;i!,[(|\xi,)1^i:I!,!`  .^`i!;!,l,  }</tspan>
+<tspan x="0" y="199.0">`'';i'          .z l(\|||||()uu-  iii.?|(||l'!.      .I</tspan>
+<tspan x="0" y="212.0"> `   I"  "l.!I;Zz-?+u}-]{{rt\rrr(,`,``--\rj\U0&gt;     !..</tspan>
+<tspan x="0" y="225.0"> `      ;!!,!  )0+zxwLiikdtufnnn/ufm)!Xk(YY1Y\  ; `^! .</tspan>
+<tspan x="0" y="238.0"> .'^.'.;iI.    (\LLJUUUxutxfnXYv//xtnvvcczzz\'     , ...</tspan>
+<tspan x="0" y="251.0">  . ` !"'     ~(xxZ0QJccvcxfvYYzn/jcvxzzXXYx("&gt;  `I,'..</tspan>
+<tspan x="0" y="264.0">     /:!^   '/J)xYx\/\\\/tvXQmm0Yfzt\\\\/\tj`m~   .`&gt;</tspan>
+<tspan x="0" y="277.0">         .  ..L:(XJCCCCQQ0Yf\0OY1jxCCCUYYYcf`q~  ^\.</tspan>
+<tspan x="0" y="290.0">            . n"1XJJL00QQLYYYUUUcnzLQQQLYzcf'v&lt; ^ '</tspan>
+<tspan x="0" y="303.0">         .+.    }XJCCQQQJXXXXXzzvvvzXQQJccvi   .. ^</tspan>
+<tspan x="0" y="316.0">         .'...   vCCXL0UUJvj/xct/xncvzcccvnI</tspan>
+<tspan x="0" y="329.0">         ....    /XJXYLJc/\fjttff/(uvXcvcx\"   ;</tspan>
+<tspan x="0" y="342.0">            I'.  '|fzXYYYYYzf|\\vXXuuvuxt?. .l ..</tspan>
+<tspan x="0" y="355.0">            ..     ItucYYYczCQQQzcvvunt\{.    .'`</tspan>
+<tspan x="0" y="368.0">              '    ;^tfnvvzJLJJJUvvurt)?{</tspan>
+<tspan x="0" y="381.0">                :  ;/\[]ttvvvvvvufft|"((( .</tspan>
+<tspan x="0" y="394.0">                  `;/tt1},^^^^^^^^^[{(\/(`</tspan>
+<tspan x="0" y="407.0">                  ";/uuuut\(((((((/trntt/;$</tspan>
+<tspan x="0" y="420.0">             ''`.~1/nuvYYYXvurxrxnnuuuuxt{ .</tspan>
+<tspan x="0" y="433.0">                ?ttfuXYYYYznuuuuuuzYUzuuft|".</tspan>
+<tspan x="0" y="446.0">                .^ruuvYYYYYYUUUUUUUYYYuuutt)'    ...</tspan>
+<tspan x="0" y="459.0">                  .,juucYYUUUUUUUUUYYzvuf(&lt;.           .</tspan>
+<tspan x="0" y="472.0">                    .(xnuzXYYYYUXXzunxrf}'</tspan>
+<tspan x="0" y="485.0">                       ''(//ttttt/t\)'`^</tspan>
+<tspan x="0" y="498.0">                          .  ;{{{{</tspan>
+</text>
+<text x="350" y="30" fill="#c9d1d9" font-size="12.5px">
+<tspan x="350" y="30" font-weight="bold">naman@sinha</tspan><tspan class="cc"> ──────────────────────────────────────────────────────────</tspan>
+<tspan x="350" y="62" class="key">. OS:</tspan><tspan class="cc"> .................... </tspan><tspan class="value">Linux Mint</tspan>
+<tspan x="350" y="88" class="key">. Terminal:</tspan><tspan class="cc"> .............. </tspan><tspan class="value">Warp, Vim, Neovim, Bash</tspan>
+
+<tspan x="350" y="122" class="key">. Languages.Programming:</tspan><tspan class="cc"> . </tspan><tspan class="value">C++, Python, TypeScript, C, Verilog</tspan>
+<tspan x="350" y="148" class="key">. Languages.Computer:</tspan><tspan class="cc"> .... </tspan><tspan class="value">HTML, CSS, JSON, YAML, LaTeX</tspan>
+
+<tspan x="350" y="182" class="key">. Hobbies.Software:</tspan><tspan class="cc"> ...... </tspan><tspan class="value">Chess engine (C), Code reviewing</tspan>
+<tspan x="350" y="208" class="key">. Hobbies.Hardware:</tspan><tspan class="cc"> ...... </tspan><tspan class="value">Modding hardware, Overclocking, Undervolting</tspan>
+
+<tspan x="350" y="245" class="cc">- Contact ────────────────────────────────────────────────────────────</tspan>
+<tspan x="350" y="275" class="key">. Email.Personal:</tspan><tspan class="cc"> ........ </tspan><tspan class="value">notnamansinha@gmail.com</tspan>
+<tspan x="350" y="301" class="key">. Email.University:</tspan><tspan class="cc"> ...... </tspan><tspan class="value">naman.s4@ahduni.edu.in</tspan>
+<tspan x="350" y="327" class="key">. LinkedIn:</tspan><tspan class="cc"> .............. </tspan><tspan class="value">linkedin.com/in/notnamansinha</tspan>
+
+<tspan x="350" y="365" class="cc">- GitHub Stats ───────────────────────────────────────────────────────</tspan>
+<tspan x="350" y="398"><tspan class="key">Commits:       </tspan><tspan class="value" id="commit_data">1,255</tspan><tspan id="commit_space">            </tspan><tspan class="cc">|</tspan> <tspan class="key">Stars:  </tspan><tspan class="value" id="star_data">7</tspan></tspan>
+<tspan x="350" y="428"><tspan class="key">Pull Requests: </tspan><tspan class="value" id="pr_data">63</tspan><tspan id="pr_space">               </tspan><tspan class="cc">|</tspan> <tspan class="key">Issues: </tspan><tspan class="value" id="issue_data">11</tspan></tspan>
+<tspan x="350" y="458"><tspan class="key">Repos:         </tspan><tspan class="value"><tspan id="repo_data">12</tspan> (Contrib: <tspan id="contrib_data">20</tspan>)</tspan><tspan id="repo_space"> </tspan><tspan class="cc">|</tspan> <tspan class="key">Forks:  </tspan><tspan class="value" id="fork_data">6</tspan></tspan>
+</text>
+</svg>
