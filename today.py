@@ -29,7 +29,7 @@ USER_NAME = os.environ.get('USER_NAME') or 'notnamansinha'
 IGNORED_REPOS = [
     'notnamansinha/ahmedabad-multimodal-transit'
 ]
-QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0, 'pr_issue_getter': 0}
 
 
 
@@ -94,7 +94,7 @@ def graph_commits(start_date, end_date):
 
 def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del_loc=0):
     """
-    Uses GitHub's GraphQL v4 API to return my total repository, star, or lines of code count.
+    Uses GitHub's GraphQL v4 API to return my total repository, star, or fork count.
     """
     query_count('graph_repos_stars')
     query = '''
@@ -109,6 +109,7 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
                             stargazers {
                                 totalCount
                             }
+                            forkCount
                         }
                     }
                 }
@@ -126,6 +127,8 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
             return request.json()['data']['user']['repositories']['totalCount']
         elif count_type == 'stars':
             return stars_counter(request.json()['data']['user']['repositories']['edges'])
+        elif count_type == 'forks':
+            return forks_counter(request.json()['data']['user']['repositories']['edges'])
 
 
 def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, deletion_total=0, my_commits=0, cursor=None):
@@ -368,25 +371,69 @@ def stars_counter(data):
     return total_stars
 
 
-def svg_overwrite(filename, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
+def forks_counter(data):
     """
-    Parse SVG files and update elements with my commits, stars, repositories, and lines written
+    Count total forks on repositories owned by me
+    """
+    total_forks = 0
+    for node in data: total_forks += node['node'].get('forkCount', 0)
+    return total_forks
+
+
+def pr_issue_getter(username):
+    """
+    Returns total PRs authored and total Issues authored by the user
+    """
+    query_count('pr_issue_getter')
+    query = '''
+    query($login: String!) {
+        user(login: $login) {
+            pullRequests(first: 1) {
+                totalCount
+            }
+            issues(first: 1) {
+                totalCount
+            }
+        }
+    }'''
+    request = simple_request(pr_issue_getter.__name__, query, {'login': username})
+    user_data = request.json()['data']['user']
+    return user_data['pullRequests']['totalCount'], user_data['issues']['totalCount']
+
+
+def svg_overwrite(filename, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data, pr_data=63, issue_data=11, fork_data=6):
+    """
+    Parse SVG files and update elements with commits, stars, repos, PRs, issues, and forks
     """
     tree = etree.parse(filename)
     root = tree.getroot()
     
-    # Justify stats
-    commit_data = f"{commit_data:,}" if isinstance(commit_data, int) else str(commit_data)
-    find_and_replace(root, 'commit_data', commit_data)
-    find_and_replace(root, "commit_data_dots", "." * max(0, 24 - 1 - len(commit_data)) + " ")
+    commit_str = f"{commit_data:,}" if isinstance(commit_data, int) else str(commit_data)
+    pr_str = f"{pr_data:,}" if isinstance(pr_data, int) else str(pr_data)
+    issue_str = f"{issue_data:,}" if isinstance(issue_data, int) else str(issue_data)
+    star_str = f"{star_data:,}" if isinstance(star_data, int) else str(star_data)
+    fork_str = f"{fork_data:,}" if isinstance(fork_data, int) else str(fork_data)
+    repo_str = str(repo_data)
+    contrib_str = str(contrib_data)
     
-    find_and_replace(root, 'repo_data', str(repo_data))
-    find_and_replace(root, 'contrib_data', str(contrib_data))
-    repo_text = f"{repo_data} {{Contributed: {contrib_data}}}"
-    find_and_replace(root, "repo_data_dots", "." * max(0, 24 - 1 - len(repo_text)) + " ")
+    find_and_replace(root, 'commit_data', commit_str)
+    commit_pad = max(1, 32 - len(f"Commits:       {commit_str}"))
+    find_and_replace(root, 'commit_space', ' ' * commit_pad)
     
-    justify_format(root, 'follower_data', follower_data, 5)
-    justify_format(root, 'star_data', star_data, 5)
+    find_and_replace(root, 'star_data', star_str)
+    
+    find_and_replace(root, 'pr_data', pr_str)
+    pr_pad = max(1, 32 - len(f"Pull Requests: {pr_str}"))
+    find_and_replace(root, 'pr_space', ' ' * pr_pad)
+    
+    find_and_replace(root, 'issue_data', issue_str)
+    
+    find_and_replace(root, 'repo_data', repo_str)
+    find_and_replace(root, 'contrib_data', contrib_str)
+    repo_pad = max(1, 32 - len(f"Repos:         {repo_str} (Contrib: {contrib_str})"))
+    find_and_replace(root, 'repo_space', ' ' * repo_pad)
+    
+    find_and_replace(root, 'fork_data', fork_str)
     
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
@@ -509,18 +556,20 @@ if __name__ == '__main__':
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
     commit_data, commit_time = perf_counter(commit_counter, 0)
     star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
+    fork_data, fork_time = perf_counter(graph_repos_stars, 'forks', ['OWNER'])
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
+    (pr_data, issue_data), pr_issue_time = perf_counter(pr_issue_getter, USER_NAME)
 
     for index in range(len(total_loc)-1): total_loc[index] = '{:,}'.format(total_loc[index])
 
-    svg_overwrite('assets/dark_mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
-    svg_overwrite('assets/light_mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
+    svg_overwrite('assets/dark_mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], pr_data, issue_data, fork_data)
+    svg_overwrite('assets/light_mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], pr_data, issue_data, fork_data)
 
-    print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
-        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
-        ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
+    print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
+        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + loc_time + commit_time + star_time + fork_time + repo_time + contrib_time + pr_issue_time)),
+        ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
 
     print('Total GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))
     for funct_name, count in QUERY_COUNT.items(): print('{:<28}'.format('   ' + funct_name + ':'), '{:>6}'.format(count))
