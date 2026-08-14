@@ -417,20 +417,20 @@ def svg_overwrite(filename, commit_data, star_data, repo_data, contrib_data, fol
     contrib_str = str(contrib_data)
     
     find_and_replace(root, 'commit_data', commit_str)
-    commit_pad = max(1, 45 - len(f"Commits:       {commit_str}"))
+    commit_pad = max(1, 32 - len(f"Commits:       {commit_str}"))
     find_and_replace(root, 'commit_space', ' ' * commit_pad)
     
     find_and_replace(root, 'star_data', star_str)
     
     find_and_replace(root, 'pr_data', pr_str)
-    pr_pad = max(1, 45 - len(f"Pull Requests: {pr_str}"))
+    pr_pad = max(1, 32 - len(f"Pull Requests: {pr_str}"))
     find_and_replace(root, 'pr_space', ' ' * pr_pad)
     
     find_and_replace(root, 'issue_data', issue_str)
     
     find_and_replace(root, 'repo_data', repo_str)
     find_and_replace(root, 'contrib_data', contrib_str)
-    repo_pad = max(1, 45 - len(f"Repos:         {repo_str} (Contrib: {contrib_str})"))
+    repo_pad = max(1, 32 - len(f"Repos:         {repo_str} (Contrib: {contrib_str})"))
     find_and_replace(root, 'repo_space', ' ' * repo_pad)
     
     find_and_replace(root, 'fork_data', fork_str)
