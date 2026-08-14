@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="880px" height="550px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1000px" height="550px" font-size="16px" viewBox="0 0 1000 550">
 <style>
 @font-face {
 src: local('Consolas'), local('Consolas Bold');
 font-family: 'ConsolasFallback';
 font-display: swap;
--webkit-size-adjust: 109%;
-size-adjust: 109%;
+-webkit-size-adjust: 100%;
+size-adjust: 100%;
 }
 .key {fill: #953800;}
 .value {fill: #0a3069;}
@@ -17,7 +17,7 @@ size-adjust: 109%;
 .ascii {fill: #57606a; font-size: 11.5px; font-weight: bold;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="880px" height="550px" fill="#f6f8fa" rx="15" />
+<rect width="1000px" height="550px" fill="#f6f8fa" rx="15" />
 <text x="0" y="25" class="ascii">
 <tspan x="0" y="30.0">                             '...} .:</tspan>
 <tspan x="0" y="43.0">                       ' . .'`" .. '; `..`</tspan>
@@ -57,25 +57,25 @@ text, tspan {white-space: pre;}
 <tspan x="0" y="485.0">                       ''(//ttttt/t\)'`^</tspan>
 <tspan x="0" y="498.0">                          .  ;{{{{</tspan>
 </text>
-<text x="425" y="30" fill="#24292f" font-size="14.5px">
-<tspan x="425" y="30" font-weight="bold">naman@sinha</tspan><tspan class="sep"> ──────────────────────────────────────────</tspan>
-<tspan x="425" y="62" class="key">. OS:                   </tspan><tspan class="cc">.................... </tspan><tspan class="value">Linux Mint</tspan>
-<tspan x="425" y="88" class="key">. Terminal:             </tspan><tspan class="cc">.............. </tspan><tspan class="value">Bash, Warp, Vim, Neovim</tspan>
+<text x="360" y="30" fill="#24292f" font-size="13.5px">
+<tspan x="360" y="30" font-weight="bold">naman@sinha</tspan><tspan class="sep"> ─────────────────────────────────────────────────────────</tspan>
+<tspan x="360" y="62" class="key">. OS:                   </tspan><tspan class="cc">.................... </tspan><tspan class="value">Linux Mint</tspan>
+<tspan x="360" y="88" class="key">. Terminal:             </tspan><tspan class="cc">.............. </tspan><tspan class="value">Bash, Warp, Vim, Neovim</tspan>
 
-<tspan x="425" y="122" class="key">. Languages.Programming:</tspan><tspan class="cc"> . </tspan><tspan class="value">C++, Python, TypeScript, C, Verilog</tspan>
-<tspan x="425" y="148" class="key">. Languages.Computer:   </tspan><tspan class="cc">.... </tspan><tspan class="value">HTML, CSS, JSON, YAML, LaTeX</tspan>
+<tspan x="360" y="122" class="key">. Languages.Programming:</tspan><tspan class="cc"> . </tspan><tspan class="value">C++, Python, TypeScript, C, Verilog</tspan>
+<tspan x="360" y="148" class="key">. Languages.Computer:   </tspan><tspan class="cc">.... </tspan><tspan class="value">HTML, CSS, JSON, YAML, LaTeX</tspan>
 
-<tspan x="425" y="182" class="key">. Hobbies.Software:     </tspan><tspan class="cc">...... </tspan><tspan class="value">Chess engine (C), Code reviewing</tspan>
-<tspan x="425" y="208" class="key">. Hobbies.Hardware:     </tspan><tspan class="cc">...... </tspan><tspan class="value">Modding hardware, Overclocking, Undervolting</tspan>
+<tspan x="360" y="182" class="key">. Hobbies.Software:     </tspan><tspan class="cc">...... </tspan><tspan class="value">Chess engine (C), Code reviewing</tspan>
+<tspan x="360" y="208" class="key">. Hobbies.Hardware:     </tspan><tspan class="cc">...... </tspan><tspan class="value">Modding hardware, Overclocking, Undervolting</tspan>
 
-<tspan x="425" y="245" class="sep">- Contact ────────────────────────────────────────────</tspan>
-<tspan x="425" y="275" class="key">. Email.Personal:       </tspan><tspan class="cc">........ </tspan><tspan class="value">notnamansinha@gmail.com</tspan>
-<tspan x="425" y="301" class="key">. Email.University:     </tspan><tspan class="cc">...... </tspan><tspan class="value">naman.s4@ahduni.edu.in</tspan>
-<tspan x="425" y="327" class="key">. LinkedIn:             </tspan><tspan class="cc">.............. </tspan><tspan class="value">linkedin.com/in/notnamansinha</tspan>
+<tspan x="360" y="245" class="sep">- Contact ─────────────────────────────────────────────────────────────</tspan>
+<tspan x="360" y="275" class="key">. Email.Personal:       </tspan><tspan class="cc">........ </tspan><tspan class="value">notnamansinha@gmail.com</tspan>
+<tspan x="360" y="301" class="key">. Email.University:     </tspan><tspan class="cc">...... </tspan><tspan class="value">naman.s4@ahduni.edu.in</tspan>
+<tspan x="360" y="327" class="key">. LinkedIn:             </tspan><tspan class="cc">.............. </tspan><tspan class="value">linkedin.com/in/notnamansinha</tspan>
 
-<tspan x="425" y="365" class="sep">- GitHub Stats ───────────────────────────────────────</tspan>
-<tspan x="425" y="398"><tspan class="key">Commits:       </tspan><tspan class="value" id="commit_data">1,255</tspan><tspan id="commit_space">            </tspan><tspan class="sep">|</tspan> <tspan class="key">Stars:  </tspan><tspan class="value" id="star_data">7</tspan></tspan>
-<tspan x="425" y="428"><tspan class="key">Pull Requests: </tspan><tspan class="value" id="pr_data">63</tspan><tspan id="pr_space">               </tspan><tspan class="sep">|</tspan> <tspan class="key">Issues: </tspan><tspan class="value" id="issue_data">11</tspan></tspan>
-<tspan x="425" y="458"><tspan class="key">Repos:         </tspan><tspan class="value"><tspan id="repo_data">12</tspan> (Contrib: <tspan id="contrib_data">20</tspan>)</tspan><tspan id="repo_space"> </tspan><tspan class="sep">|</tspan> <tspan class="key">Forks:  </tspan><tspan class="value" id="fork_data">6</tspan></tspan>
+<tspan x="360" y="365" class="sep">- GitHub Stats ────────────────────────────────────────────────────────</tspan>
+<tspan x="360" y="398"><tspan class="key">Commits:       </tspan><tspan class="value" id="commit_data">1,255</tspan><tspan id="commit_space">                         </tspan><tspan class="sep">|</tspan> <tspan class="key">Stars:  </tspan><tspan class="value" id="star_data">7</tspan></tspan>
+<tspan x="360" y="428"><tspan class="key">Pull Requests: </tspan><tspan class="value" id="pr_data">63</tspan><tspan id="pr_space">                            </tspan><tspan class="sep">|</tspan> <tspan class="key">Issues: </tspan><tspan class="value" id="issue_data">11</tspan></tspan>
+<tspan x="360" y="458"><tspan class="key">Repos:         </tspan><tspan class="value"><tspan id="repo_data">12</tspan> (Contrib: <tspan id="contrib_data">20</tspan>)</tspan><tspan id="repo_space">              </tspan><tspan class="sep">|</tspan> <tspan class="key">Forks:  </tspan><tspan class="value" id="fork_data">6</tspan></tspan>
 </text>
 </svg>
