@@ -74,8 +74,8 @@ text, tspan {white-space: pre;}
 <tspan x="375" y="329" class="key">. LinkedIn:</tspan><tspan class="cc"> .............. </tspan><tspan class="value">linkedin.com/in/notnamansinha</tspan>
 
 <tspan x="375" y="367" class="sep">- GitHub Stats ──────────────────────────────────────</tspan>
-<tspan x="375" y="400"><tspan class="key">Commits:       </tspan><tspan class="value" id="commit_data">1,299</tspan><tspan id="commit_space">            </tspan><tspan class="sep">|</tspan> <tspan class="key">Stars:  </tspan><tspan class="value" id="star_data">7</tspan></tspan>
-<tspan x="375" y="430"><tspan class="key">Pull Requests: </tspan><tspan class="value" id="pr_data">78</tspan><tspan id="pr_space">               </tspan><tspan class="sep">|</tspan> <tspan class="key">Issues: </tspan><tspan class="value" id="issue_data">28</tspan></tspan>
-<tspan x="375" y="460"><tspan class="key">Repos:         </tspan><tspan class="value"><tspan id="repo_data">13</tspan> (Contrib: <tspan id="contrib_data">21</tspan>)</tspan><tspan id="repo_space"> </tspan><tspan class="sep">|</tspan> <tspan class="key">Forks:  </tspan><tspan class="value" id="fork_data">6</tspan></tspan>
+<tspan x="375" y="400"><tspan class="key">Commits:       </tspan><tspan class="value" id="commit_data">1,304</tspan><tspan id="commit_space">            </tspan><tspan class="sep">|</tspan> <tspan class="key">Stars:  </tspan><tspan class="value" id="star_data">7</tspan></tspan>
+<tspan x="375" y="430"><tspan class="key">Pull Requests: </tspan><tspan class="value" id="pr_data">86</tspan><tspan id="pr_space">               </tspan><tspan class="sep">|</tspan> <tspan class="key">Issues: </tspan><tspan class="value" id="issue_data">29</tspan></tspan>
+<tspan x="375" y="460"><tspan class="key">Repos:         </tspan><tspan class="value"><tspan id="repo_data">13</tspan> (Contrib: <tspan id="contrib_data">22</tspan>)</tspan><tspan id="repo_space"> </tspan><tspan class="sep">|</tspan> <tspan class="key">Forks:  </tspan><tspan class="value" id="fork_data">6</tspan></tspan>
 </text>
 </svg>
